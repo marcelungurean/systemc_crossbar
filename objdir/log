@@ -1,0 +1,1023 @@
+CPU0 created. Connected CPU0 -> Scheduler
+CPU1 created. Connected CPU1 -> Scheduler
+CPU2 created. Connected CPU2 -> Scheduler
+CPU3 created. Connected CPU3 -> Scheduler
+MEM0 created. Connecting MEM0 <- Scheduler
+MEM1 created. Connecting MEM1 <- Scheduler
+MEM2 created. Connecting MEM2 <- Scheduler
+
+CPU0 will send 83 transactions. 
+CPU1 will send 77 transactions. 
+CPU2 will send 93 transactions. 
+CPU3 will send 86 transactions. 
+    1 ns: CPU: TID:0  CPU3->MEM2  Write  addr:  fb  data:    a9e3 pr:2
+    1 ns: CPU: TID:1  CPU0->MEM1  Write  addr:  f8  data:    231b pr:0
+    2 ns: CPU: TID:2  CPU1->MEM2  Write  addr:  5a  data:    f92e pr:3
+    2 ns: CPU: TID:3  CPU2->MEM2  Write  addr:  9a  data:    fb66 pr:2
+    2 ns: CPU: TID:4  CPU3->MEM1  Write  addr:  58  data:    30a3 pr:2
+    3 ns: CPU: TID:5  CPU0->MEM0  Write  addr:  17  data:    a858 pr:1
+    3 ns: SCH: Found TID:2 with higher priority
+    3 ns: SCH: Picked TID:2              addr:  5a  data:    f92e 
+    4 ns: CPU: TID:6  CPU3->MEM2  Write  addr:  b2  data:    d0cd pr:2
+    4 ns: SCH: Found TID:3 with higher priority
+    4 ns: SCH: Found older TID:0 with same priority(age=3 ns)
+    4 ns: SCH: Picked TID:0              addr:  fb  data:    a9e3 
+    4 ns: CPU: TID:7  CPU0->MEM2  Read   addr:  11  data:       0 pr:2
+    4 ns: CPU: TID:8  CPU2->MEM0  Read   addr:  3d  data:       0 pr:3
+    4 ns: CPU: TID:9  CPU1->MEM1  Write  addr:  a1  data:    c241 pr:1
+    5 ns: SCH: Found TID:9 with higher priority
+    5 ns: SCH: Found TID:3 with higher priority
+    5 ns: SCH: Picked TID:3              addr:  9a  data:    fb66 
+    5 ns: CPU: TID:10  CPU1->MEM0  Read   addr:   1  data:       0 pr:3
+    5 ns: CPU: TID:11  CPU2->MEM0  Write  addr:  96  data:    d78f pr:0
+    5 ns: CPU: TID:12  CPU0->MEM2  Write  addr:  b0  data:    d43b pr:3
+    6 ns: CPU: TID:13  CPU3->MEM0  Read   addr:  54  data:       0 pr:0
+    6 ns: CPU: TID:14  CPU0->MEM1  Write  addr:  1a  data:    78fe pr:3
+    6 ns: CPU: TID:15  CPU2->MEM2  Write  addr:  3a  data:    85fb pr:1
+    6 ns: CPU: TID:16  CPU1->MEM0  Write  addr:  3c  data:    b77c pr:0
+    6 ns: SCH: Found TID:9 with higher priority
+    6 ns: SCH: Found TID:8 with higher priority
+    6 ns: SCH: Picked TID:8              addr:  3d  data:       0 
+    7 ns: SCH: Found TID:9 with higher priority
+    7 ns: SCH: Found TID:4 with higher priority
+    7 ns: SCH: Picked TID:4              addr:  58  data:    30a3 
+    8 ns: CPU: TID:17  CPU0->MEM2  Read   addr:  61  data:       0 pr:1
+    8 ns: SCH: Found TID:9 with higher priority
+    8 ns: SCH: Found TID:6 with higher priority
+    8 ns: SCH: Picked TID:6              addr:  b2  data:    d0cd 
+    8 ns: CPU: TID:18  CPU1->MEM1  Write  addr:  99  data:    b60f pr:1
+    8 ns: CPU: TID:19  CPU2->MEM0  Write  addr:  b3  data:    7e05 pr:3
+    8 ns: CPU: TID:20  CPU3->MEM2  Write  addr:  a1  data:    823a pr:1
+    9 ns: CPU: TID:21  CPU0->MEM2  Read   addr:  d0  data:       0 pr:3
+    9 ns: CPU: TID:22  CPU3->MEM0  Write  addr:  23  data:    3f1e pr:0
+    9 ns: SCH: Found TID:9 with higher priority
+    9 ns: SCH: Picked TID:9              addr:  a1  data:    c241 
+   10 ns: CPU: TID:23  CPU1->MEM1  Write  addr:  c5  data:    2b14 pr:3
+   10 ns: SCH: Found TID:10 with higher priority
+   10 ns: SCH: Picked TID:10              addr:   1  data:       0 
+   10 ns: CPU: TID:24  CPU3->MEM2  Write  addr:  4b  data:    d379 pr:3
+   10 ns: CPU: TID:25  CPU0->MEM2  Read   addr:  24  data:       0 pr:2
+   10 ns: CPU: TID:26  CPU2->MEM2  Write  addr:  d4  data:    d9ac pr:2
+   11 ns: CPU: TID:27  CPU1->MEM0  Write  addr:  3b  data:    7e33 pr:1
+   11 ns: SCH: Picked TID:1              addr:  f8  data:    231b 
+   12 ns: CPU: TID:28  CPU0->MEM1  Write  addr:  47  data:    c315 pr:0
+   12 ns: SCH: Picked TID:5              addr:  17  data:    a858 
+   12 ns: CPU: TID:29  CPU2->MEM0  Write  addr:  19  data:    24ba pr:3
+   12 ns: CPU: TID:30  CPU3->MEM0  Write  addr:  e1  data:    ac1a pr:0
+   13 ns: CPU: TID:31  CPU1->MEM0  Write  addr:  29  data:    18f8 pr:0
+   13 ns: SCH: Picked TID:7              addr:  11  data:       0 
+   14 ns: CPU: TID:32  CPU2->MEM2  Write  addr:  ca  data:    e74e pr:0
+   14 ns: SCH: Picked TID:12              addr:  b0  data:    d43b 
+   14 ns: CPU: TID:33  CPU0->MEM0  Write  addr:  e0  data:    ca79 pr:1
+   14 ns: CPU: TID:34  CPU3->MEM2  Read   addr:  5f  data:       0 pr:3
+   15 ns: CPU: TID:35  CPU1->MEM1  Read   addr:   5  data:       0 pr:2
+   15 ns: CPU: TID:36  CPU3->MEM2  Write  addr:  1a  data:    6a55 pr:2
+   15 ns: CPU: TID:37  CPU2->MEM1  Write  addr:  73  data:    173b pr:0
+   15 ns: SCH: Picked TID:14              addr:  1a  data:    78fe 
+   16 ns: CPU: TID:38  CPU0->MEM2  Write  addr:  94  data:    12b3 pr:3
+   16 ns: SCH: Picked TID:17              addr:  61  data:       0 
+   16 ns: CPU: TID:39  CPU2->MEM1  Write  addr:  9e  data:    6b4f pr:2
+   16 ns: CPU: TID:40  CPU3->MEM1  Write  addr:  82  data:    2e4e pr:1
+   17 ns: CPU: TID:41  CPU1->MEM1  Write  addr:  b2  data:    858a pr:1
+   17 ns: CPU: TID:42  CPU3->MEM0  Write  addr:   a  data:    f6bc pr:1
+   17 ns: CPU: TID:43  CPU0->MEM0  Write  addr:  44  data:    feac pr:3
+   17 ns: SCH: Picked TID:21              addr:  d0  data:       0 
+   18 ns: CPU: TID:44  CPU2->MEM2  Write  addr:  d7  data:    b62d pr:3
+   18 ns: SCH: Picked TID:25              addr:  24  data:       0 
+   18 ns: CPU: TID:45  CPU1->MEM1  Write  addr:   6  data:    f8c4 pr:3
+   18 ns: CPU: TID:46  CPU3->MEM2  Read   addr:  84  data:       0 pr:1
+   19 ns: CPU: TID:47  CPU0->MEM2  Write  addr:  47  data:    4cde pr:2
+   19 ns: SCH: Found older TID:16 with same priority(age=13 ns)
+   19 ns: SCH: Found older TID:11 with same priority(age=14 ns)
+   19 ns: SCH: Picked TID:11              addr:  96  data:    d78f 
+   20 ns: CPU: TID:48  CPU1->MEM1  Write  addr:  c4  data:    2e30 pr:2
+   20 ns: SCH: Found older TID:16 with same priority(age=14 ns)
+   20 ns: SCH: Found TID:15 with higher priority
+   20 ns: SCH: Picked TID:15              addr:  3a  data:    85fb 
+   20 ns: CPU: TID:49  CPU0->MEM0  Write  addr:  6c  data:    85fb pr:2
+   20 ns: CPU: TID:50  CPU3->MEM1  Write  addr:  ec  data:     b0b pr:1
+   20 ns: CPU: TID:51  CPU2->MEM0  Write  addr:  c3  data:    f63e pr:1
+   21 ns: CPU: TID:52  CPU1->MEM1  Write  addr:  67  data:    cc33 pr:3
+   21 ns: SCH: Found older TID:16 with same priority(age=15 ns)
+   21 ns: SCH: Found TID:19 with higher priority
+   21 ns: SCH: Picked TID:19              addr:  b3  data:    7e05 
+   21 ns: CPU: TID:53  CPU3->MEM1  Write  addr:  e3  data:    2c14 pr:3
+   22 ns: CPU: TID:54  CPU0->MEM2  Write  addr:  5e  data:    dfa0 pr:2
+   22 ns: CPU: TID:55  CPU2->MEM1  Write  addr:   5  data:    6394 pr:1
+   22 ns: SCH: Found older TID:16 with same priority(age=16 ns)
+   22 ns: SCH: Found TID:26 with higher priority
+   22 ns: SCH: Picked TID:26              addr:  d4  data:    d9ac 
+   23 ns: CPU: TID:56  CPU1->MEM1  Read   addr:  44  data:       0 pr:2
+   23 ns: SCH: Found older TID:16 with same priority(age=17 ns)
+   23 ns: SCH: Found TID:29 with higher priority
+   23 ns: SCH: Picked TID:29              addr:  19  data:    24ba 
+   23 ns: CPU: TID:57  CPU2->MEM2  Read   addr:  23  data:       0 pr:2
+   23 ns: CPU: TID:58  CPU0->MEM2  Write  addr:  7e  data:    714c pr:2
+   23 ns: CPU: TID:59  CPU3->MEM0  Read   addr:  48  data:       0 pr:3
+   24 ns: SCH: Found older TID:16 with same priority(age=18 ns)
+   24 ns: SCH: Picked TID:16              addr:  3c  data:    b77c 
+   24 ns: CPU: TID:60  CPU3->MEM2  Write  addr:  31  data:    9599 pr:0
+   24 ns: CPU: TID:61  CPU2->MEM1  Write  addr:  ee  data:    f49b pr:0
+   25 ns: CPU: TID:62  CPU0->MEM2  Write  addr:  cf  data:    4208 pr:1
+   25 ns: CPU: TID:63  CPU1->MEM0  Write  addr:  53  data:    6f60 pr:2
+   25 ns: CPU: TID:64  CPU3->MEM2  Write  addr:  85  data:    f5fa pr:0
+   25 ns: SCH: Found TID:18 with higher priority
+   25 ns: SCH: Picked TID:18              addr:  99  data:    b60f 
+   26 ns: CPU: TID:65  CPU2->MEM1  Read   addr:  d4  data:       0 pr:2
+   26 ns: SCH: Found TID:23 with higher priority
+   26 ns: SCH: Picked TID:23              addr:  c5  data:    2b14 
+   26 ns: CPU: TID:66  CPU3->MEM1  Write  addr:  a8  data:    9a87 pr:1
+   26 ns: CPU: TID:67  CPU1->MEM0  Write  addr:  8a  data:    b73f pr:2
+   27 ns: CPU: TID:68  CPU0->MEM2  Write  addr:  de  data:    947c pr:1
+   27 ns: CPU: TID:69  CPU1->MEM1  Read   addr:  59  data:       0 pr:1
+   27 ns: CPU: TID:70  CPU2->MEM0  Read   addr:  95  data:       0 pr:0
+   27 ns: SCH: Found TID:27 with higher priority
+   27 ns: SCH: Picked TID:27              addr:  3b  data:    7e33 
+   28 ns: CPU: TID:71  CPU3->MEM0  Read   addr:  f1  data:       0 pr:0
+   28 ns: SCH: Found older TID:13 with same priority(age=22 ns)
+   28 ns: SCH: Picked TID:13              addr:  54  data:       0 
+   29 ns: CPU: TID:72  CPU2->MEM0  Write  addr:  c0  data:    467c pr:3
+   29 ns: SCH: Found TID:20 with higher priority
+   29 ns: SCH: Picked TID:20              addr:  a1  data:    823a 
+   29 ns: CPU: TID:73  CPU3->MEM1  Write  addr:  66  data:    dfda pr:1
+   29 ns: CPU: TID:73  CPU1->MEM1  Read   addr:  af  data:       0 pr:0
+   29 ns: CPU: TID:74  CPU0->MEM2  Write  addr:  2f  data:    fe3a pr:3
+   30 ns: CPU: TID:76  CPU2->MEM1  Write  addr:  ac  data:    b207 pr:3
+   30 ns: SCH: Found older TID:22 with same priority(age=21 ns)
+   30 ns: SCH: Picked TID:22              addr:  23  data:    3f1e 
+   31 ns: CPU: TID:77  CPU0->MEM1  Write  addr:  34  data:    6f2d pr:1
+   31 ns: SCH: Found TID:24 with higher priority
+   31 ns: SCH: Picked TID:24              addr:  4b  data:    d379 
+   31 ns: CPU: TID:78  CPU2->MEM0  Write  addr:  d4  data:    77b6 pr:3
+   31 ns: CPU: TID:79  CPU1->MEM2  Read   addr:  e4  data:       0 pr:3
+   31 ns: CPU: TID:80  CPU3->MEM0  Write  addr:  96  data:    7f12 pr:0
+   32 ns: SCH: Picked TID:28              addr:  47  data:    c315 
+   33 ns: CPU: TID:81  CPU3->MEM2  Write  addr:  d8  data:    45e5 pr:2
+   33 ns: SCH: Picked TID:33              addr:  e0  data:    ca79 
+   33 ns: CPU: TID:82  CPU1->MEM0  Write  addr:   9  data:    e6d1 pr:1
+   33 ns: CPU: TID:83  CPU2->MEM2  Write  addr:  1f  data:    ae95 pr:2
+   33 ns: CPU: TID:84  CPU0->MEM1  Write  addr:  49  data:    b2ae pr:0
+   34 ns: CPU: TID:85  CPU3->MEM2  Write  addr:  ba  data:    5eac pr:2
+   34 ns: SCH: Picked TID:38              addr:  94  data:    12b3 
+   34 ns: CPU: TID:86  CPU2->MEM1  Read   addr:  a8  data:       0 pr:1
+   34 ns: CPU: TID:87  CPU1->MEM2  Read   addr:  2a  data:       0 pr:0
+   35 ns: CPU: TID:88  CPU0->MEM1  Read   addr:  c3  data:       0 pr:2
+   35 ns: CPU: TID:89  CPU3->MEM2  Write  addr:  da  data:    ef4c pr:3
+   35 ns: CPU: TID:89  CPU2->MEM1  Write  addr:  ed  data:    3cd2 pr:3
+   35 ns: SCH: Picked TID:43              addr:  44  data:    feac 
+   36 ns: CPU: TID:90  CPU1->MEM0  Write  addr:  8b  data:    bc00 pr:2
+   36 ns: SCH: Picked TID:47              addr:  47  data:    4cde 
+   36 ns: CPU: TID:91  CPU0->MEM1  Write  addr:  18  data:    a5d1 pr:2
+   37 ns: CPU: TID:92  CPU2->MEM2  Write  addr:  45  data:    5da3 pr:1
+   37 ns: CPU: TID:93  CPU0->MEM0  Write  addr:  c9  data:    aa2a pr:1
+   37 ns: SCH: Picked TID:49              addr:  6c  data:    85fb 
+   37 ns: CPU: TID:94  CPU1->MEM1  Read   addr:  2f  data:       0 pr:1
+   38 ns: CPU: TID:95  CPU2->MEM0  Write  addr:  7c  data:    6613 pr:2
+   38 ns: CPU: TID:95  CPU1->MEM2  Write  addr:  fc  data:    9f72 pr:1
+   38 ns: SCH: Picked TID:54              addr:  5e  data:    dfa0 
+   39 ns: CPU: TID:96  CPU0->MEM0  Read   addr:  a6  data:       0 pr:3
+   39 ns: SCH: Picked TID:58              addr:  7e  data:    714c 
+   40 ns: CPU: TID:97  CPU1->MEM2  Write  addr:  4b  data:    27ce pr:2
+   40 ns: SCH: Picked TID:62              addr:  cf  data:    4208 
+   41 ns: CPU: TID:97  CPU0->MEM1  Write  addr:  4f  data:    9d76 pr:2
+   41 ns: SCH: Picked TID:68              addr:  de  data:    947c 
+   42 ns: CPU: TID:98  CPU0->MEM1  Read   addr:  81  data:       0 pr:1
+   42 ns: SCH: Picked TID:74              addr:  2f  data:    fe3a 
+   43 ns: SCH: Picked TID:77              addr:  34  data:    6f2d 
+   44 ns: CPU: TID:99  CPU0->MEM2  Write  addr:  9b  data:    a567 pr:3
+   44 ns: SCH: Found older TID:31 with same priority(age=31 ns)
+   44 ns: SCH: Found older TID:30 with same priority(age=32 ns)
+   44 ns: SCH: Picked TID:30              addr:  e1  data:    ac1a 
+   45 ns: SCH: Found older TID:31 with same priority(age=32 ns)
+   45 ns: SCH: Found TID:34 with higher priority
+   45 ns: SCH: Picked TID:34              addr:  5f  data:       0 
+   46 ns: CPU: TID:101  CPU0->MEM0  Write  addr:  4e  data:    8d32 pr:1
+   46 ns: SCH: Found older TID:31 with same priority(age=33 ns)
+   46 ns: SCH: Found TID:36 with higher priority
+   46 ns: SCH: Picked TID:36              addr:  1a  data:    6a55 
+   47 ns: CPU: TID:102  CPU3->MEM1  Write  addr:  6a  data:    a1c7 pr:3
+   47 ns: SCH: Found older TID:31 with same priority(age=34 ns)
+   47 ns: SCH: Found TID:40 with higher priority
+   47 ns: SCH: Picked TID:40              addr:  82  data:    2e4e 
+   48 ns: CPU: TID:103  CPU0->MEM2  Write  addr:  f4  data:    11b2 pr:1
+   48 ns: SCH: Found older TID:31 with same priority(age=35 ns)
+   48 ns: SCH: Found TID:42 with higher priority
+   48 ns: SCH: Picked TID:42              addr:   a  data:    f6bc 
+   48 ns: CPU: TID:104  CPU3->MEM1  Write  addr:  f3  data:    8401 pr:1
+   49 ns: CPU: TID:105  CPU0->MEM0  Write  addr:  8b  data:    7b67 pr:3
+   49 ns: CPU: TID:106  CPU3->MEM0  Write  addr:  17  data:    b29f pr:2
+   49 ns: SCH: Found older TID:31 with same priority(age=36 ns)
+   49 ns: SCH: Found TID:46 with higher priority
+   49 ns: SCH: Picked TID:46              addr:  84  data:       0 
+   50 ns: CPU: TID:107  CPU3->MEM0  Write  addr:  61  data:    d403 pr:1
+   50 ns: SCH: Found older TID:31 with same priority(age=37 ns)
+   50 ns: SCH: Found TID:50 with higher priority
+   50 ns: SCH: Picked TID:50              addr:  ec  data:     b0b 
+   51 ns: CPU: TID:108  CPU0->MEM2  Write  addr:  be  data:    459b pr:3
+   51 ns: SCH: Found older TID:31 with same priority(age=38 ns)
+   51 ns: SCH: Found TID:53 with higher priority
+   51 ns: SCH: Picked TID:53              addr:  e3  data:    2c14 
+   51 ns: CPU: TID:109  CPU3->MEM1  Write  addr:  98  data:    1401 pr:2
+   52 ns: SCH: Found older TID:31 with same priority(age=39 ns)
+   52 ns: SCH: Found TID:59 with higher priority
+   52 ns: SCH: Picked TID:59              addr:  48  data:       0 
+   53 ns: CPU: TID:110  CPU3->MEM2  Read   addr:  f6  data:       0 pr:2
+   53 ns: SCH: Found older TID:31 with same priority(age=40 ns)
+   53 ns: SCH: Picked TID:31              addr:  29  data:    18f8 
+   53 ns: CPU: TID:111  CPU0->MEM1  Write  addr:  21  data:    a02e pr:1
+   54 ns: SCH: Found TID:35 with higher priority
+   54 ns: SCH: Picked TID:35              addr:   5  data:       0 
+   55 ns: CPU: TID:113  CPU0->MEM0  Write  addr:  63  data:    85c9 pr:2
+   55 ns: CPU: TID:114  CPU1->MEM0  Read   addr:  de  data:       0 pr:2
+   55 ns: SCH: Found TID:41 with higher priority
+   55 ns: SCH: Picked TID:41              addr:  b2  data:    858a 
+   55 ns: CPU: TID:114  CPU3->MEM2  Write  addr:  2b  data:    7321 pr:3
+   56 ns: SCH: Found TID:45 with higher priority
+   56 ns: SCH: Picked TID:45              addr:   6  data:    f8c4 
+   57 ns: CPU: TID:116  CPU1->MEM2  Write  addr:  fd  data:    328b pr:2
+   57 ns: SCH: Found TID:48 with higher priority
+   57 ns: SCH: Picked TID:48              addr:  c4  data:    2e30 
+   57 ns: CPU: TID:117  CPU3->MEM0  Write  addr:  e3  data:    74cf pr:2
+   57 ns: CPU: TID:118  CPU0->MEM0  Write  addr:  4b  data:    2c35 pr:1
+   58 ns: CPU: TID:119  CPU1->MEM0  Read   addr:  6c  data:       0 pr:1
+   58 ns: SCH: Found TID:52 with higher priority
+   58 ns: SCH: Picked TID:52              addr:  67  data:    cc33 
+   58 ns: CPU: TID:120  CPU3->MEM2  Write  addr:  ed  data:    4ade pr:3
+   59 ns: CPU: TID:120  CPU0->MEM1  Write  addr:  20  data:     1c7 pr:2
+   59 ns: SCH: Found TID:56 with higher priority
+   59 ns: SCH: Picked TID:56              addr:  44  data:       0 
+   59 ns: CPU: TID:121  CPU1->MEM0  Write  addr:  4d  data:    1a81 pr:0
+   60 ns: SCH: Found TID:63 with higher priority
+   60 ns: SCH: Picked TID:63              addr:  53  data:    6f60 
+   60 ns: CPU: TID:122  CPU1->MEM0  Write  addr:  ee  data:    2beb pr:2
+   61 ns: CPU: TID:123  CPU0->MEM1  Read   addr:  79  data:       0 pr:0
+   61 ns: CPU: TID:124  CPU1->MEM0  Write  addr:  68  data:    dcf3 pr:0
+   61 ns: SCH: Found TID:67 with higher priority
+   61 ns: SCH: Picked TID:67              addr:  8a  data:    b73f 
+   62 ns: CPU: TID:125  CPU0->MEM2  Write  addr:  2b  data:    4626 pr:2
+   62 ns: SCH: Found TID:69 with higher priority
+   62 ns: SCH: Picked TID:69              addr:  59  data:       0 
+   62 ns: CPU: TID:125  CPU1->MEM2  Write  addr:  eb  data:    5ab2 pr:3
+   63 ns: SCH: Found older TID:73 with same priority(age=34 ns)
+   63 ns: SCH: Found older TID:32 with same priority(age=49 ns)
+   63 ns: SCH: Picked TID:32              addr:  ca  data:    e74e 
+   63 ns: CPU: TID:126  CPU1->MEM0  Read   addr:  c0  data:       0 pr:2
+   64 ns: SCH: Found older TID:73 with same priority(age=35 ns)
+   64 ns: SCH: Found older TID:37 with same priority(age=49 ns)
+   64 ns: SCH: Picked TID:37              addr:  73  data:    173b 
+   65 ns: CPU: TID:128  CPU1->MEM2  Read   addr:  f6  data:       0 pr:2
+   65 ns: CPU: TID:129  CPU2->MEM2  Read   addr:   8  data:       0 pr:0
+   65 ns: SCH: Found older TID:73 with same priority(age=36 ns)
+   65 ns: SCH: Found TID:39 with higher priority
+   65 ns: SCH: Picked TID:39              addr:  9e  data:    6b4f 
+   66 ns: CPU: TID:130  CPU1->MEM0  Write  addr:  a7  data:    cf4d pr:1
+   66 ns: CPU: TID:130  CPU2->MEM0  Write  addr:   3  data:    bca0 pr:1
+   66 ns: SCH: Found older TID:73 with same priority(age=37 ns)
+   66 ns: SCH: Found TID:44 with higher priority
+   66 ns: SCH: Picked TID:44              addr:  d7  data:    b62d 
+   67 ns: SCH: Found older TID:73 with same priority(age=38 ns)
+   67 ns: SCH: Found TID:51 with higher priority
+   67 ns: SCH: Picked TID:51              addr:  c3  data:    f63e 
+   67 ns: CPU: TID:131  CPU2->MEM1  Write  addr:  5d  data:    e7cd pr:3
+   68 ns: SCH: Found older TID:73 with same priority(age=39 ns)
+   68 ns: SCH: Found TID:55 with higher priority
+   68 ns: SCH: Picked TID:55              addr:   5  data:    6394 
+   69 ns: CPU: TID:132  CPU2->MEM2  Write  addr:  d5  data:    4870 pr:0
+   69 ns: SCH: Found older TID:73 with same priority(age=40 ns)
+   69 ns: SCH: Found TID:57 with higher priority
+   69 ns: SCH: Picked TID:57              addr:  23  data:       0 
+   70 ns: CPU: TID:133  CPU2->MEM1  Write  addr:   f  data:    de98 pr:2
+   70 ns: SCH: Found older TID:73 with same priority(age=41 ns)
+   70 ns: SCH: Found older TID:61 with same priority(age=46 ns)
+   70 ns: SCH: Picked TID:61              addr:  ee  data:    f49b 
+   71 ns: SCH: Found older TID:73 with same priority(age=42 ns)
+   71 ns: SCH: Found TID:65 with higher priority
+   71 ns: SCH: Picked TID:65              addr:  d4  data:       0 
+   72 ns: CPU: TID:134  CPU2->MEM2  Write  addr:   d  data:    7fa7 pr:2
+   72 ns: SCH: Found older TID:73 with same priority(age=43 ns)
+   72 ns: SCH: Found older TID:70 with same priority(age=45 ns)
+   72 ns: SCH: Found older TID:60 with same priority(age=48 ns)
+   72 ns: SCH: Picked TID:60              addr:  31  data:    9599 
+   73 ns: CPU: TID:135  CPU2->MEM1  Write  addr:  b5  data:    6bdb pr:0
+   73 ns: SCH: Found older TID:73 with same priority(age=44 ns)
+   73 ns: SCH: Found older TID:70 with same priority(age=46 ns)
+   73 ns: SCH: Found older TID:64 with same priority(age=48 ns)
+   73 ns: SCH: Picked TID:64              addr:  85  data:    f5fa 
+   74 ns: CPU: TID:137  CPU2->MEM2  Write  addr:  5a  data:    172a pr:1
+   74 ns: SCH: Found older TID:73 with same priority(age=45 ns)
+   74 ns: SCH: Found older TID:70 with same priority(age=47 ns)
+   74 ns: SCH: Found TID:66 with higher priority
+   74 ns: SCH: Picked TID:66              addr:  a8  data:    9a87 
+   75 ns: CPU: TID:138  CPU3->MEM2  Write  addr:  b7  data:    6e13 pr:3
+   75 ns: SCH: Found older TID:73 with same priority(age=46 ns)
+   75 ns: SCH: Found older TID:70 with same priority(age=48 ns)
+   75 ns: SCH: Picked TID:70              addr:  95  data:       0 
+   75 ns: CPU: TID:139  CPU2->MEM1  Write  addr:  63  data:    3132 pr:3
+   76 ns: CPU: TID:139  CPU3->MEM1  Read   addr:  76  data:       0 pr:1
+   76 ns: SCH: Found older TID:73 with same priority(age=47 ns)
+   76 ns: SCH: Found TID:72 with higher priority
+   76 ns: SCH: Picked TID:72              addr:  c0  data:    467c 
+   77 ns: SCH: Found older TID:73 with same priority(age=48 ns)
+   77 ns: SCH: Found TID:76 with higher priority
+   77 ns: SCH: Picked TID:76              addr:  ac  data:    b207 
+   77 ns: CPU: TID:141  CPU2->MEM1  Read   addr:  6b  data:       0 pr:1
+   78 ns: CPU: TID:142  CPU3->MEM0  Read   addr:  37  data:       0 pr:1
+   78 ns: CPU: TID:142  CPU2->MEM1  Write  addr:  9c  data:    56d7 pr:1
+   78 ns: SCH: Found older TID:73 with same priority(age=49 ns)
+   78 ns: SCH: Found TID:78 with higher priority
+   78 ns: SCH: Picked TID:78              addr:  d4  data:    77b6 
+   79 ns: SCH: Found older TID:73 with same priority(age=50 ns)
+   79 ns: SCH: Found TID:83 with higher priority
+   79 ns: SCH: Picked TID:83              addr:  1f  data:    ae95 
+   79 ns: CPU: TID:143  CPU2->MEM0  Write  addr:  4a  data:    874f pr:1
+   80 ns: SCH: Found older TID:73 with same priority(age=51 ns)
+   80 ns: SCH: Found TID:86 with higher priority
+   80 ns: SCH: Picked TID:86              addr:  a8  data:       0 
+   80 ns: CPU: TID:144  CPU2->MEM1  Read   addr:  4a  data:       0 pr:3
+   81 ns: SCH: Found older TID:73 with same priority(age=52 ns)
+   81 ns: SCH: Found TID:89 with higher priority
+   81 ns: SCH: Picked TID:89              addr:  ed  data:    3cd2 
+   81 ns: CPU: TID:145  CPU2->MEM2  Write  addr:   d  data:    a87b pr:0
+   82 ns: SCH: Found older TID:73 with same priority(age=53 ns)
+   82 ns: SCH: Found TID:92 with higher priority
+   82 ns: SCH: Picked TID:92              addr:  45  data:    5da3 
+   82 ns: CPU: TID:146  CPU2->MEM0  Write  addr:  5b  data:    dcbc pr:2
+   83 ns: SCH: Found older TID:73 with same priority(age=54 ns)
+   83 ns: SCH: Found TID:95 with higher priority
+   83 ns: SCH: Picked TID:95              addr:  7c  data:    6613 
+   84 ns: CPU: TID:147  CPU2->MEM1  Read   addr:  3d  data:       0 pr:2
+   84 ns: SCH: Found older TID:73 with same priority(age=55 ns)
+   84 ns: SCH: Found older TID:71 with same priority(age=56 ns)
+   84 ns: SCH: Picked TID:71              addr:  f1  data:       0 
+   85 ns: SCH: Found older TID:73 with same priority(age=56 ns)
+   85 ns: SCH: Picked TID:73              addr:  af  data:       0 
+   86 ns: CPU: TID:149  CPU2->MEM1  Write  addr:  4c  data:     624 pr:1
+   86 ns: CPU: TID:150  CPU3->MEM2  Write  addr:  12  data:    8680 pr:0
+   86 ns: SCH: Found TID:79 with higher priority
+   86 ns: SCH: Picked TID:79              addr:  e4  data:       0 
+   87 ns: CPU: TID:151  CPU2->MEM2  Write  addr:  e0  data:    9756 pr:1
+   87 ns: CPU: TID:151  CPU1->MEM1  Write  addr:  c8  data:    7671 pr:3
+   87 ns: SCH: Found TID:82 with higher priority
+   87 ns: SCH: Found older TID:73 with same priority(age=58 ns)
+   87 ns: SCH: Picked TID:73              addr:  66  data:    dfda 
+   88 ns: SCH: Found TID:82 with higher priority
+   88 ns: SCH: Picked TID:82              addr:   9  data:    e6d1 
+   88 ns: CPU: TID:152  CPU1->MEM2  Write  addr:  a8  data:    cd8a pr:3
+   89 ns: SCH: Found older TID:80 with same priority(age=58 ns)
+   89 ns: SCH: Picked TID:80              addr:  96  data:    7f12 
+   89 ns: CPU: TID:153  CPU3->MEM0  Write  addr:  33  data:    2ea6 pr:1
+   90 ns: SCH: Found TID:81 with higher priority
+   90 ns: SCH: Picked TID:81              addr:  d8  data:    45e5 
+   91 ns: CPU: TID:155  CPU1->MEM2  Write  addr:  f0  data:    332f pr:2
+   91 ns: SCH: Found TID:85 with higher priority
+   91 ns: SCH: Picked TID:85              addr:  ba  data:    5eac 
+   92 ns: CPU: TID:155  CPU3->MEM1  Read   addr:  49  data:       0 pr:2
+   92 ns: SCH: Found TID:89 with higher priority
+   92 ns: SCH: Picked TID:89              addr:  da  data:    ef4c 
+   93 ns: CPU: TID:156  CPU3->MEM1  Read   addr:  e3  data:       0 pr:1
+   93 ns: SCH: Found TID:102 with higher priority
+   93 ns: SCH: Picked TID:102              addr:  6a  data:    a1c7 
+   94 ns: SCH: Found TID:104 with higher priority
+   94 ns: SCH: Picked TID:104              addr:  f3  data:    8401 
+   95 ns: CPU: TID:157  CPU3->MEM1  Write  addr:  98  data:    3bb9 pr:1
+   95 ns: SCH: Found TID:106 with higher priority
+   95 ns: SCH: Picked TID:106              addr:  17  data:    b29f 
+   96 ns: SCH: Found TID:107 with higher priority
+   96 ns: SCH: Picked TID:107              addr:  61  data:    d403 
+   97 ns: CPU: TID:158  CPU3->MEM2  Write  addr:  a8  data:    e34b pr:0
+   97 ns: SCH: Found TID:109 with higher priority
+   97 ns: SCH: Picked TID:109              addr:  98  data:    1401 
+   98 ns: SCH: Found TID:110 with higher priority
+   98 ns: SCH: Picked TID:110              addr:  f6  data:       0 
+   99 ns: CPU: TID:159  CPU3->MEM1  Write  addr:  1a  data:    ee90 pr:0
+   99 ns: SCH: Found TID:114 with higher priority
+   99 ns: SCH: Picked TID:114              addr:  2b  data:    7321 
+  100 ns: SCH: Found TID:117 with higher priority
+  100 ns: SCH: Picked TID:117              addr:  e3  data:    74cf 
+  101 ns: CPU: TID:160  CPU3->MEM0  Write  addr:  4b  data:    ce48 pr:2
+  101 ns: SCH: Found TID:120 with higher priority
+  101 ns: SCH: Picked TID:120              addr:  ed  data:    4ade 
+  102 ns: SCH: Found TID:138 with higher priority
+  102 ns: SCH: Picked TID:138              addr:  b7  data:    6e13 
+  103 ns: CPU: TID:161  CPU3->MEM2  Write  addr:  25  data:    8dcb pr:0
+  103 ns: SCH: Found TID:139 with higher priority
+  103 ns: SCH: Picked TID:139              addr:  76  data:       0 
+  104 ns: SCH: Found TID:142 with higher priority
+  104 ns: SCH: Picked TID:142              addr:  37  data:       0 
+  105 ns: CPU: TID:162  CPU3->MEM2  Read   addr:  45  data:       0 pr:3
+  105 ns: SCH: Picked TID:84              addr:  49  data:    b2ae 
+  106 ns: CPU: TID:163  CPU3->MEM2  Write  addr:  a9  data:    578d pr:2
+  106 ns: SCH: Picked TID:88              addr:  c3  data:       0 
+  107 ns: SCH: Picked TID:91              addr:  18  data:    a5d1 
+  107 ns: CPU: TID:165  CPU0->MEM1  Write  addr:  a4  data:    46bc pr:2
+  108 ns: CPU: TID:166  CPU3->MEM2  Read   addr:  39  data:       0 pr:1
+  108 ns: CPU: TID:167  CPU0->MEM0  Write  addr:  8c  data:    d6b6 pr:3
+  108 ns: SCH: Picked TID:93              addr:  c9  data:    aa2a 
+  109 ns: SCH: Picked TID:96              addr:  a6  data:       0 
+  110 ns: CPU: TID:168  CPU0->MEM2  Write  addr:  61  data:    56ab pr:0
+  110 ns: SCH: Picked TID:97              addr:  4f  data:    9d76 
+  110 ns: CPU: TID:169  CPU3->MEM0  Read   addr:  90  data:       0 pr:1
+  111 ns: SCH: Picked TID:98              addr:  81  data:       0 
+  111 ns: CPU: TID:170  CPU3->MEM1  Write  addr:  77  data:    6e4d pr:1
+  112 ns: CPU: TID:171  CPU0->MEM1  Read   addr:  60  data:       0 pr:2
+  112 ns: SCH: Picked TID:99              addr:  9b  data:    a567 
+  113 ns: CPU: TID:172  CPU3->MEM0  Write  addr:  a1  data:    4d68 pr:2
+  113 ns: SCH: Picked TID:101              addr:  4e  data:    8d32 
+  113 ns: CPU: TID:173  CPU0->MEM0  Write  addr:  1d  data:    a9e4 pr:2
+  114 ns: CPU: TID:174  CPU3->MEM2  Write  addr:  94  data:    145c pr:0
+  114 ns: SCH: Picked TID:103              addr:  f4  data:    11b2 
+  115 ns: CPU: TID:175  CPU0->MEM2  Write  addr:  8a  data:    5ed6 pr:2
+  115 ns: SCH: Picked TID:105              addr:  8b  data:    7b67 
+  116 ns: CPU: TID:176  CPU3->MEM1  Write  addr:  df  data:    e918 pr:1
+  116 ns: SCH: Picked TID:108              addr:  be  data:    459b 
+  117 ns: CPU: TID:177  CPU0->MEM2  Read   addr:  dd  data:       0 pr:1
+  117 ns: SCH: Picked TID:111              addr:  21  data:    a02e 
+  118 ns: CPU: TID:178  CPU3->MEM1  Write  addr:  97  data:    ad75 pr:1
+  118 ns: SCH: Picked TID:113              addr:  63  data:    85c9 
+  118 ns: CPU: TID:178  CPU0->MEM2  Write  addr:   5  data:    c29b pr:3
+  119 ns: SCH: Picked TID:118              addr:  4b  data:    2c35 
+  120 ns: CPU: TID:179  CPU0->MEM2  Write  addr:  c0  data:    4a15 pr:3
+  120 ns: SCH: Picked TID:120              addr:  20  data:     1c7 
+  121 ns: CPU: TID:180  CPU0->MEM1  Write  addr:  4d  data:    5b0c pr:1
+  121 ns: SCH: Found older TID:87 with same priority(age=87 ns)
+  121 ns: SCH: Picked TID:87              addr:  2a  data:       0 
+  122 ns: SCH: Found TID:90 with higher priority
+  122 ns: SCH: Picked TID:90              addr:  8b  data:    bc00 
+  123 ns: CPU: TID:182  CPU0->MEM1  Read   addr:   2  data:       0 pr:2
+  123 ns: SCH: Found TID:94 with higher priority
+  123 ns: SCH: Picked TID:94              addr:  2f  data:       0 
+  124 ns: CPU: TID:183  CPU1->MEM1  Write  addr:  28  data:    2763 pr:3
+  124 ns: SCH: Found TID:95 with higher priority
+  124 ns: SCH: Picked TID:95              addr:  fc  data:    9f72 
+  125 ns: CPU: TID:184  CPU0->MEM0  Write  addr:  66  data:    8acf pr:0
+  125 ns: SCH: Found TID:97 with higher priority
+  125 ns: SCH: Picked TID:97              addr:  4b  data:    27ce 
+  126 ns: CPU: TID:185  CPU1->MEM0  Write  addr:  87  data:    7768 pr:0
+  126 ns: SCH: Found TID:114 with higher priority
+  126 ns: SCH: Picked TID:114              addr:  de  data:       0 
+  127 ns: CPU: TID:186  CPU0->MEM0  Write  addr:  6b  data:    3267 pr:0
+  127 ns: SCH: Found TID:116 with higher priority
+  127 ns: SCH: Picked TID:116              addr:  fd  data:    328b 
+  128 ns: CPU: TID:187  CPU1->MEM0  Write  addr:  c4  data:    dc03 pr:2
+  128 ns: SCH: Found TID:119 with higher priority
+  128 ns: SCH: Picked TID:119              addr:  6c  data:       0 
+  128 ns: CPU: TID:188  CPU0->MEM1  Write  addr:  60  data:    c8ff pr:1
+  129 ns: CPU: TID:189  CPU1->MEM1  Write  addr:  ed  data:    38c6 pr:1
+  129 ns: SCH: Found older TID:121 with same priority(age=70 ns)
+  129 ns: SCH: Picked TID:121              addr:  4d  data:    1a81 
+  130 ns: CPU: TID:190  CPU0->MEM0  Read   addr:  6a  data:       0 pr:1
+  130 ns: SCH: Found TID:122 with higher priority
+  130 ns: SCH: Picked TID:122              addr:  ee  data:    2beb 
+  131 ns: CPU: TID:191  CPU1->MEM0  Write  addr:  d1  data:    9e9d pr:0
+  131 ns: SCH: Picked TID:123              addr:  79  data:       0 
+  131 ns: CPU: TID:192  CPU0->MEM0  Write  addr:  b7  data:    3832 pr:0
+  132 ns: SCH: Picked TID:125              addr:  2b  data:    4626 
+  133 ns: CPU: TID:193  CPU1->MEM1  Write  addr:  d8  data:    b579 pr:2
+  133 ns: CPU: TID:194  CPU0->MEM2  Read   addr:  bf  data:       0 pr:0
+  133 ns: SCH: Picked TID:165              addr:  a4  data:    46bc 
+  134 ns: CPU: TID:195  CPU1->MEM2  Write  addr:  cd  data:    a0ed pr:3
+  134 ns: CPU: TID:196  CPU0->MEM2  Write  addr:  5a  data:    8a0d pr:3
+  134 ns: SCH: Picked TID:167              addr:  8c  data:    d6b6 
+  135 ns: CPU: TID:197  CPU1->MEM0  Write  addr:  13  data:    fe95 pr:3
+  135 ns: CPU: TID:198  CPU0->MEM0  Write  addr:  ab  data:    ead0 pr:0
+  135 ns: SCH: Found older TID:124 with same priority(age=74 ns)
+  135 ns: SCH: Picked TID:124              addr:  68  data:    dcf3 
+  136 ns: CPU: TID:199  CPU1->MEM2  Read   addr:  78  data:       0 pr:2
+  136 ns: CPU: TID:200  CPU0->MEM2  Write  addr:  bf  data:    c5ab pr:3
+  136 ns: SCH: Found TID:125 with higher priority
+  136 ns: SCH: Picked TID:125              addr:  eb  data:    5ab2 
+  137 ns: SCH: Found TID:126 with higher priority
+  137 ns: SCH: Picked TID:126              addr:  c0  data:       0 
+  138 ns: CPU: TID:200  CPU1->MEM2  Read   addr:  2b  data:       0 pr:3
+  138 ns: SCH: Found TID:128 with higher priority
+  138 ns: SCH: Picked TID:128              addr:  f6  data:       0 
+  139 ns: CPU: TID:201  CPU1->MEM1  Write  addr:  16  data:    27fb pr:1
+  139 ns: SCH: Found TID:130 with higher priority
+  139 ns: SCH: Picked TID:130              addr:  a7  data:    cf4d 
+  140 ns: SCH: Found TID:151 with higher priority
+  140 ns: SCH: Picked TID:151              addr:  c8  data:    7671 
+  141 ns: CPU: TID:202  CPU1->MEM0  Read   addr:  a3  data:       0 pr:1
+  141 ns: SCH: Found TID:152 with higher priority
+  141 ns: SCH: Picked TID:152              addr:  a8  data:    cd8a 
+  142 ns: SCH: Found TID:155 with higher priority
+  142 ns: SCH: Picked TID:155              addr:  f0  data:    332f 
+  143 ns: CPU: TID:203  CPU1->MEM0  Write  addr:  f5  data:    fabb pr:3
+  143 ns: SCH: Found TID:183 with higher priority
+  143 ns: SCH: Picked TID:183              addr:  28  data:    2763 
+  144 ns: CPU: TID:204  CPU1->MEM0  Write  addr:  14  data:    773b pr:3
+  144 ns: SCH: Found older TID:129 with same priority(age=79 ns)
+  144 ns: SCH: Picked TID:129              addr:   8  data:       0 
+  145 ns: SCH: Found TID:130 with higher priority
+  145 ns: SCH: Picked TID:130              addr:   3  data:    bca0 
+  146 ns: CPU: TID:206  CPU1->MEM0  Write  addr:  55  data:    63f1 pr:0
+  146 ns: CPU: TID:207  CPU2->MEM2  Read   addr:  a3  data:       0 pr:3
+  146 ns: SCH: Found TID:131 with higher priority
+  146 ns: SCH: Picked TID:131              addr:  5d  data:    e7cd 
+  147 ns: SCH: Found older TID:132 with same priority(age=78 ns)
+  147 ns: SCH: Picked TID:132              addr:  d5  data:    4870 
+  148 ns: CPU: TID:208  CPU2->MEM1  Write  addr:  f2  data:    c907 pr:2
+  148 ns: SCH: Found TID:133 with higher priority
+  148 ns: SCH: Picked TID:133              addr:   f  data:    de98 
+  148 ns: CPU: TID:209  CPU1->MEM1  Write  addr:  5a  data:    22b5 pr:0
+  149 ns: SCH: Found TID:134 with higher priority
+  149 ns: SCH: Picked TID:134              addr:   d  data:    7fa7 
+  149 ns: CPU: TID:210  CPU1->MEM1  Write  addr:  a5  data:     62b pr:0
+  150 ns: CPU: TID:211  CPU2->MEM2  Write  addr:  35  data:    83ab pr:3
+  150 ns: CPU: TID:212  CPU1->MEM2  Write  addr:  cf  data:    e1dc pr:1
+  150 ns: SCH: Found older TID:135 with same priority(age=77 ns)
+  150 ns: SCH: Picked TID:135              addr:  b5  data:    6bdb 
+  151 ns: CPU: TID:213  CPU1->MEM0  Read   addr:  9f  data:       0 pr:2
+  151 ns: SCH: Found TID:137 with higher priority
+  151 ns: SCH: Picked TID:137              addr:  5a  data:    172a 
+  152 ns: CPU: TID:213  CPU2->MEM2  Write  addr:  a4  data:    9ffa pr:0
+  152 ns: SCH: Found TID:139 with higher priority
+  152 ns: SCH: Picked TID:139              addr:  63  data:    3132 
+  153 ns: CPU: TID:214  CPU2->MEM2  Write  addr:  49  data:    7670 pr:1
+  153 ns: SCH: Found TID:141 with higher priority
+  153 ns: SCH: Picked TID:141              addr:  6b  data:       0 
+  154 ns: CPU: TID:215  CPU2->MEM0  Read   addr:  ca  data:       0 pr:3
+  154 ns: SCH: Found TID:142 with higher priority
+  154 ns: SCH: Picked TID:142              addr:  9c  data:    56d7 
+  155 ns: SCH: Found TID:143 with higher priority
+  155 ns: SCH: Picked TID:143              addr:  4a  data:    874f 
+  156 ns: CPU: TID:216  CPU2->MEM2  Write  addr:  ad  data:    d608 pr:3
+  156 ns: SCH: Found TID:144 with higher priority
+  156 ns: SCH: Picked TID:144              addr:  4a  data:       0 
+  157 ns: SCH: Found older TID:145 with same priority(age=76 ns)
+  157 ns: SCH: Picked TID:145              addr:   d  data:    a87b 
+  158 ns: CPU: TID:217  CPU2->MEM2  Write  addr:  b4  data:    fd38 pr:1
+  158 ns: SCH: Found TID:146 with higher priority
+  158 ns: SCH: Picked TID:146              addr:  5b  data:    dcbc 
+  159 ns: SCH: Found TID:147 with higher priority
+  159 ns: SCH: Picked TID:147              addr:  3d  data:       0 
+  160 ns: CPU: TID:218  CPU2->MEM2  Read   addr:  53  data:       0 pr:1
+  160 ns: SCH: Found TID:149 with higher priority
+  160 ns: SCH: Picked TID:149              addr:  4c  data:     624 
+  161 ns: SCH: Found TID:151 with higher priority
+  161 ns: SCH: Picked TID:151              addr:  e0  data:    9756 
+  162 ns: CPU: TID:219  CPU2->MEM2  Write  addr:  9c  data:    e42b pr:0
+  162 ns: SCH: Found TID:207 with higher priority
+  162 ns: SCH: Picked TID:207              addr:  a3  data:       0 
+  163 ns: SCH: Found TID:208 with higher priority
+  163 ns: SCH: Picked TID:208              addr:  f2  data:    c907 
+  164 ns: CPU: TID:220  CPU2->MEM2  Write  addr:  23  data:    9a69 pr:3
+  164 ns: SCH: Found TID:211 with higher priority
+  164 ns: SCH: Picked TID:211              addr:  35  data:    83ab 
+  165 ns: CPU: TID:221  CPU2->MEM0  Write  addr:  ea  data:    208c pr:0
+  165 ns: SCH: Found older TID:150 with same priority(age=79 ns)
+  165 ns: SCH: Picked TID:150              addr:  12  data:    8680 
+  166 ns: SCH: Found TID:153 with higher priority
+  166 ns: SCH: Picked TID:153              addr:  33  data:    2ea6 
+  167 ns: CPU: TID:223  CPU2->MEM0  Read   addr:  ca  data:       0 pr:0
+  167 ns: SCH: Found TID:155 with higher priority
+  167 ns: SCH: Picked TID:155              addr:  49  data:       0 
+  168 ns: CPU: TID:224  CPU3->MEM1  Write  addr:  ef  data:    c405 pr:3
+  168 ns: SCH: Found TID:156 with higher priority
+  168 ns: SCH: Picked TID:156              addr:  e3  data:       0 
+  169 ns: CPU: TID:225  CPU2->MEM2  Read   addr:  ba  data:       0 pr:3
+  169 ns: SCH: Found TID:157 with higher priority
+  169 ns: SCH: Picked TID:157              addr:  98  data:    3bb9 
+  169 ns: CPU: TID:226  CPU3->MEM1  Write  addr:  8b  data:    111a pr:3
+  170 ns: CPU: TID:227  CPU2->MEM2  Write  addr:  44  data:    bf85 pr:0
+  170 ns: CPU: TID:228  CPU3->MEM0  Write  addr:  3d  data:    a864 pr:0
+  170 ns: SCH: Found older TID:158 with same priority(age=73 ns)
+  170 ns: SCH: Picked TID:158              addr:  a8  data:    e34b 
+  171 ns: CPU: TID:229  CPU2->MEM0  Write  addr:  7b  data:     8ef pr:3
+  171 ns: SCH: Found older TID:159 with same priority(age=72 ns)
+  171 ns: SCH: Picked TID:159              addr:  1a  data:    ee90 
+  172 ns: CPU: TID:230  CPU3->MEM2  Write  addr:  96  data:    8fc8 pr:3
+  172 ns: SCH: Found TID:160 with higher priority
+  172 ns: SCH: Picked TID:160              addr:  4b  data:    ce48 
+  173 ns: CPU: TID:231  CPU2->MEM1  Write  addr:  e2  data:    72bb pr:2
+  173 ns: SCH: Found older TID:161 with same priority(age=70 ns)
+  173 ns: SCH: Picked TID:161              addr:  25  data:    8dcb 
+  173 ns: CPU: TID:232  CPU3->MEM1  Write  addr:  dc  data:    fc5a pr:0
+  174 ns: SCH: Found TID:162 with higher priority
+  174 ns: SCH: Picked TID:162              addr:  45  data:       0 
+  174 ns: CPU: TID:233  CPU3->MEM1  Write  addr:  96  data:    95b1 pr:3
+  175 ns: CPU: TID:234  CPU2->MEM2  Read   addr:  65  data:       0 pr:2
+  175 ns: SCH: Found TID:163 with higher priority
+  175 ns: SCH: Picked TID:163              addr:  a9  data:    578d 
+  176 ns: CPU: TID:235  CPU3->MEM2  Write  addr:  a1  data:    5fd3 pr:0
+  176 ns: SCH: Found TID:166 with higher priority
+  176 ns: SCH: Picked TID:166              addr:  39  data:       0 
+  176 ns: CPU: TID:236  CPU2->MEM2  Write  addr:  98  data:    cf1b pr:3
+  177 ns: CPU: TID:237  CPU3->MEM2  Write  addr:  6e  data:    baf4 pr:3
+  177 ns: SCH: Found TID:169 with higher priority
+  177 ns: SCH: Picked TID:169              addr:  90  data:       0 
+  178 ns: CPU: TID:238  CPU2->MEM0  Write  addr:  e2  data:    1113 pr:0
+  178 ns: SCH: Found TID:170 with higher priority
+  178 ns: SCH: Picked TID:170              addr:  77  data:    6e4d 
+  179 ns: CPU: TID:239  CPU3->MEM2  Read   addr:  b9  data:       0 pr:3
+  179 ns: SCH: Found TID:172 with higher priority
+  179 ns: SCH: Picked TID:172              addr:  a1  data:    4d68 
+  180 ns: CPU: TID:240  CPU2->MEM2  Write  addr:  7b  data:     6e9 pr:3
+  180 ns: SCH: Picked TID:168              addr:  61  data:    56ab 
+  181 ns: CPU: TID:240  CPU3->MEM1  Write  addr:  70  data:    720b pr:2
+  181 ns: SCH: Picked TID:171              addr:  60  data:       0 
+  182 ns: SCH: Picked TID:173              addr:  1d  data:    a9e4 
+  183 ns: CPU: TID:242  CPU0->MEM1  Read   addr:  58  data:       0 pr:3
+  183 ns: SCH: Picked TID:175              addr:  8a  data:    5ed6 
+  183 ns: CPU: TID:243  CPU3->MEM2  Write  addr:  e2  data:    2df8 pr:0
+  184 ns: SCH: Picked TID:177              addr:  dd  data:       0 
+  184 ns: CPU: TID:244  CPU3->MEM2  Read   addr:  40  data:       0 pr:2
+  185 ns: CPU: TID:245  CPU0->MEM1  Write  addr:  cb  data:    108e pr:2
+  185 ns: SCH: Picked TID:178              addr:   5  data:    c29b 
+  186 ns: CPU: TID:246  CPU3->MEM0  Write  addr:  72  data:    4b45 pr:2
+  186 ns: SCH: Picked TID:179              addr:  c0  data:    4a15 
+  186 ns: CPU: TID:247  CPU0->MEM1  Write  addr:  a0  data:    55c4 pr:2
+  187 ns: SCH: Picked TID:180              addr:  4d  data:    5b0c 
+  187 ns: CPU: TID:248  CPU0->MEM2  Write  addr:  4c  data:    b689 pr:1
+  188 ns: CPU: TID:249  CPU3->MEM1  Write  addr:  ef  data:    395b pr:2
+  188 ns: CPU: TID:250  CPU0->MEM2  Write  addr:  9a  data:    3f8e pr:3
+  188 ns: SCH: Picked TID:182              addr:   2  data:       0 
+  189 ns: SCH: Found older TID:174 with same priority(age=75 ns)
+  189 ns: SCH: Picked TID:174              addr:  94  data:    145c 
+  190 ns: CPU: TID:251  CPU3->MEM0  Read   addr:   d  data:       0 pr:1
+  190 ns: SCH: Found TID:176 with higher priority
+  190 ns: SCH: Picked TID:176              addr:  df  data:    e918 
+  190 ns: CPU: TID:251  CPU0->MEM1  Write  addr:  3d  data:    4986 pr:1
+  191 ns: SCH: Found TID:178 with higher priority
+  191 ns: SCH: Picked TID:178              addr:  97  data:    ad75 
+  191 ns: CPU: TID:253  CPU3->MEM1  Read   addr:  59  data:       0 pr:1
+  192 ns: CPU: TID:254  CPU0->MEM1  Write  addr:  7a  data:    7089 pr:3
+  192 ns: SCH: Found TID:224 with higher priority
+  192 ns: SCH: Picked TID:224              addr:  ef  data:    c405 
+  193 ns: CPU: TID:255  CPU3->MEM2  Read   addr:  f2  data:       0 pr:0
+  193 ns: SCH: Found TID:226 with higher priority
+  193 ns: SCH: Picked TID:226              addr:  8b  data:    111a 
+  194 ns: CPU: TID:256  CPU0->MEM0  Write  addr:  d1  data:    2f4e pr:3
+  194 ns: SCH: Picked TID:184              addr:  66  data:    8acf 
+  195 ns: CPU: TID:257  CPU3->MEM1  Write  addr:  e0  data:    2837 pr:1
+  195 ns: SCH: Found older TID:185 with same priority(age=69 ns)
+  195 ns: SCH: Picked TID:185              addr:  87  data:    7768 
+  196 ns: CPU: TID:258  CPU0->MEM0  Write  addr:  8a  data:     875 pr:3
+  196 ns: SCH: Found TID:187 with higher priority
+  196 ns: SCH: Picked TID:187              addr:  c4  data:    dc03 
+  196 ns: CPU: TID:259  CPU3->MEM0  Write  addr:   8  data:    76b7 pr:2
+  197 ns: CPU: TID:261  CPU0->MEM1  Write  addr:  d6  data:    313d pr:2
+  197 ns: CPU: TID:261  CPU1->MEM2  Read   addr:  9a  data:       0 pr:1
+  197 ns: CPU: TID:261  CPU3->MEM1  Write  addr:  7e  data:    1bb2 pr:0
+  197 ns: SCH: Found TID:189 with higher priority
+  197 ns: SCH: Picked TID:189              addr:  ed  data:    38c6 
+  198 ns: SCH: Picked TID:186              addr:  6b  data:    3267 
+  198 ns: CPU: TID:262  CPU1->MEM0  Write  addr:  d2  data:    19e5 pr:0
+  199 ns: SCH: Picked TID:188              addr:  60  data:    c8ff 
+  200 ns: CPU: TID:264  CPU1->MEM1  Read   addr:  d6  data:       0 pr:3
+  200 ns: CPU: TID:264  CPU0->MEM2  Write  addr:  1f  data:    8e1d pr:3
+  200 ns: SCH: Picked TID:190              addr:  6a  data:       0 
+  201 ns: SCH: Picked TID:192              addr:  b7  data:    3832 
+  202 ns: CPU: TID:265  CPU0->MEM2  Write  addr:  10  data:    2ed8 pr:3
+  202 ns: SCH: Found older TID:191 with same priority(age=71 ns)
+  202 ns: SCH: Picked TID:191              addr:  d1  data:    9e9d 
+  203 ns: CPU: TID:266  CPU0->MEM1  Write  addr:  8c  data:    4b24 pr:3
+  203 ns: SCH: Found TID:193 with higher priority
+  203 ns: SCH: Picked TID:193              addr:  d8  data:    b579 
+  204 ns: CPU: TID:268  CPU0->MEM2  Write  addr:  ac  data:    6bb3 pr:2
+  204 ns: CPU: TID:268  CPU1->MEM2  Write  addr:  c3  data:    6277 pr:2
+  204 ns: SCH: Found TID:195 with higher priority
+  204 ns: SCH: Picked TID:195              addr:  cd  data:    a0ed 
+  205 ns: SCH: Found TID:197 with higher priority
+  205 ns: SCH: Picked TID:197              addr:  13  data:    fe95 
+  205 ns: CPU: TID:269  CPU1->MEM0  Read   addr:  b5  data:       0 pr:3
+  206 ns: SCH: Found TID:199 with higher priority
+  206 ns: SCH: Picked TID:199              addr:  78  data:       0 
+  206 ns: CPU: TID:270  CPU1->MEM0  Read   addr:  9d  data:       0 pr:2
+  207 ns: SCH: Found TID:200 with higher priority
+  207 ns: SCH: Picked TID:200              addr:  2b  data:       0 
+  207 ns: CPU: TID:271  CPU1->MEM2  Write  addr:  f2  data:    f85f pr:3
+  208 ns: SCH: Found TID:201 with higher priority
+  208 ns: SCH: Picked TID:201              addr:  16  data:    27fb 
+  209 ns: CPU: TID:272  CPU1->MEM0  Write  addr:  b0  data:    ffa9 pr:1
+  209 ns: SCH: Found TID:202 with higher priority
+  209 ns: SCH: Picked TID:202              addr:  a3  data:       0 
+  210 ns: SCH: Found TID:203 with higher priority
+  210 ns: SCH: Picked TID:203              addr:  f5  data:    fabb 
+  211 ns: CPU: TID:273  CPU1->MEM1  Read   addr:  27  data:       0 pr:0
+  211 ns: SCH: Found TID:204 with higher priority
+  211 ns: SCH: Picked TID:204              addr:  14  data:    773b 
+  212 ns: SCH: Picked TID:194              addr:  bf  data:       0 
+  213 ns: CPU: TID:274  CPU1->MEM0  Write  addr:  80  data:    a0af pr:0
+  213 ns: SCH: Picked TID:196              addr:  5a  data:    8a0d 
+  214 ns: SCH: Picked TID:198              addr:  ab  data:    ead0 
+  215 ns: CPU: TID:276  CPU0->MEM0  Read   addr:  6c  data:       0 pr:3
+  215 ns: SCH: Picked TID:200              addr:  bf  data:    c5ab 
+  215 ns: CPU: TID:277  CPU1->MEM2  Write  addr:  13  data:    b61b pr:2
+  216 ns: SCH: Picked TID:242              addr:  58  data:       0 
+  216 ns: CPU: TID:278  CPU1->MEM0  Write  addr:  a4  data:    501f pr:1
+  217 ns: CPU: TID:279  CPU0->MEM1  Write  addr:  2f  data:    4889 pr:2
+  217 ns: CPU: TID:280  CPU1->MEM0  Write  addr:  71  data:    d033 pr:2
+  217 ns: SCH: Picked TID:245              addr:  cb  data:    108e 
+  218 ns: SCH: Picked TID:247              addr:  a0  data:    55c4 
+  219 ns: CPU: TID:280  CPU0->MEM2  Read   addr:  2d  data:       0 pr:3
+  219 ns: SCH: Picked TID:248              addr:  4c  data:    b689 
+  220 ns: CPU: TID:281  CPU0->MEM2  Write  addr:  d3  data:    c94f pr:3
+  220 ns: SCH: Picked TID:250              addr:  9a  data:    3f8e 
+  221 ns: CPU: TID:282  CPU0->MEM1  Write  addr:  65  data:    f454 pr:0
+  221 ns: SCH: Picked TID:251              addr:  3d  data:    4986 
+  222 ns: CPU: TID:283  CPU0->MEM1  Write  addr:  77  data:    1017 pr:0
+  222 ns: SCH: Picked TID:254              addr:  7a  data:    7089 
+  223 ns: SCH: Picked TID:256              addr:  d1  data:    2f4e 
+  224 ns: CPU: TID:284  CPU0->MEM2  Write  addr:  85  data:    2537 pr:2
+  224 ns: SCH: Picked TID:258              addr:  8a  data:     875 
+  225 ns: CPU: TID:285  CPU0->MEM2  Write  addr:  bb  data:    757e pr:0
+  225 ns: SCH: Picked TID:261              addr:  d6  data:    313d 
+  226 ns: SCH: Picked TID:264              addr:  1f  data:    8e1d 
+  227 ns: CPU: TID:286  CPU0->MEM1  Write  addr:  bb  data:    5568 pr:3
+  227 ns: SCH: Picked TID:265              addr:  10  data:    2ed8 
+  228 ns: SCH: Picked TID:266              addr:  8c  data:    4b24 
+  229 ns: CPU: TID:287  CPU0->MEM1  Read   addr:  f7  data:       0 pr:1
+  229 ns: SCH: Picked TID:268              addr:  ac  data:    6bb3 
+  230 ns: SCH: Picked TID:276              addr:  6c  data:       0 
+  231 ns: CPU: TID:288  CPU0->MEM2  Write  addr:  78  data:    8ab7 pr:2
+  231 ns: CPU0 finished sending transactions -------------------------
+  231 ns: SCH: Picked TID:279              addr:  2f  data:    4889 
+  232 ns: SCH: Picked TID:280              addr:  2d  data:       0 
+  233 ns: SCH: Picked TID:281              addr:  d3  data:    c94f 
+  234 ns: SCH: Found older TID:206 with same priority(age=88 ns)
+  234 ns: SCH: Picked TID:206              addr:  55  data:    63f1 
+  235 ns: SCH: Found older TID:209 with same priority(age=87 ns)
+  235 ns: SCH: Picked TID:209              addr:  5a  data:    22b5 
+  236 ns: SCH: Found older TID:210 with same priority(age=87 ns)
+  236 ns: SCH: Picked TID:210              addr:  a5  data:     62b 
+  236 ns: CPU: TID:290  CPU1->MEM0  Write  addr:  51  data:    b63d pr:3
+  237 ns: SCH: Found TID:212 with higher priority
+  237 ns: SCH: Picked TID:212              addr:  cf  data:    e1dc 
+  238 ns: CPU: TID:291  CPU1->MEM2  Write  addr:  c9  data:    acb1 pr:3
+  238 ns: SCH: Found TID:213 with higher priority
+  238 ns: SCH: Picked TID:213              addr:  9f  data:       0 
+  239 ns: SCH: Found TID:261 with higher priority
+  239 ns: SCH: Picked TID:261              addr:  9a  data:       0 
+  240 ns: CPU: TID:292  CPU1->MEM1  Read   addr:  c6  data:       0 pr:0
+  240 ns: SCH: Found older TID:262 with same priority(age=42 ns)
+  240 ns: SCH: Found older TID:213 with same priority(age=88 ns)
+  240 ns: SCH: Picked TID:213              addr:  a4  data:    9ffa 
+  241 ns: SCH: Found older TID:262 with same priority(age=43 ns)
+  241 ns: SCH: Found TID:214 with higher priority
+  241 ns: SCH: Picked TID:214              addr:  49  data:    7670 
+  242 ns: CPU: TID:294  CPU1->MEM1  Write  addr:  ee  data:    133e pr:3
+  242 ns: SCH: Found older TID:262 with same priority(age=44 ns)
+  242 ns: SCH: Found TID:215 with higher priority
+  242 ns: SCH: Picked TID:215              addr:  ca  data:       0 
+  243 ns: CPU: TID:295  CPU2->MEM2  Write  addr:  99  data:    f336 pr:3
+  243 ns: SCH: Found older TID:262 with same priority(age=45 ns)
+  243 ns: SCH: Found TID:216 with higher priority
+  243 ns: SCH: Picked TID:216              addr:  ad  data:    d608 
+  244 ns: CPU: TID:296  CPU1->MEM1  Write  addr:  d6  data:    b22c pr:3
+  244 ns: SCH: Found older TID:262 with same priority(age=46 ns)
+  244 ns: SCH: Found TID:217 with higher priority
+  244 ns: SCH: Picked TID:217              addr:  b4  data:    fd38 
+  245 ns: CPU: TID:297  CPU2->MEM2  Read   addr:  c7  data:       0 pr:3
+  245 ns: SCH: Found older TID:262 with same priority(age=47 ns)
+  245 ns: SCH: Found TID:218 with higher priority
+  245 ns: SCH: Picked TID:218              addr:  53  data:       0 
+  246 ns: CPU: TID:298  CPU1->MEM2  Write  addr:  56  data:    6b48 pr:0
+  246 ns: SCH: Found older TID:262 with same priority(age=48 ns)
+  246 ns: SCH: Found older TID:219 with same priority(age=84 ns)
+  246 ns: SCH: Picked TID:219              addr:  9c  data:    e42b 
+  246 ns: CPU: TID:298  CPU2->MEM2  Write  addr:  2f  data:    323e pr:1
+  247 ns: SCH: Found older TID:262 with same priority(age=49 ns)
+  247 ns: SCH: Found TID:220 with higher priority
+  247 ns: SCH: Picked TID:220              addr:  23  data:    9a69 
+  247 ns: CPU: TID:299  CPU2->MEM2  Write  addr:  ec  data:    8ac2 pr:0
+  248 ns: SCH: Found older TID:262 with same priority(age=50 ns)
+  248 ns: SCH: Found older TID:221 with same priority(age=83 ns)
+  248 ns: SCH: Picked TID:221              addr:  ea  data:    208c 
+  248 ns: CPU: TID:300  CPU2->MEM1  Write  addr:  11  data:    2191 pr:0
+  249 ns: SCH: Found older TID:262 with same priority(age=51 ns)
+  249 ns: SCH: Found older TID:223 with same priority(age=82 ns)
+  249 ns: SCH: Picked TID:223              addr:  ca  data:       0 
+  250 ns: CPU: TID:301  CPU2->MEM1  Write  addr:  5f  data:    40f8 pr:0
+  250 ns: SCH: Found older TID:262 with same priority(age=52 ns)
+  250 ns: SCH: Found TID:225 with higher priority
+  250 ns: SCH: Picked TID:225              addr:  ba  data:       0 
+  251 ns: CPU: TID:302  CPU2->MEM1  Write  addr:  e2  data:    a634 pr:3
+  251 ns: SCH: Found older TID:262 with same priority(age=53 ns)
+  251 ns: SCH: Found older TID:227 with same priority(age=81 ns)
+  251 ns: SCH: Picked TID:227              addr:  44  data:    bf85 
+  252 ns: CPU: TID:303  CPU2->MEM0  Write  addr:  69  data:    3510 pr:1
+  252 ns: SCH: Found older TID:262 with same priority(age=54 ns)
+  252 ns: SCH: Found TID:229 with higher priority
+  252 ns: SCH: Picked TID:229              addr:  7b  data:     8ef 
+  253 ns: CPU: TID:304  CPU2->MEM0  Write  addr:  e5  data:    b66a pr:1
+  253 ns: SCH: Found older TID:262 with same priority(age=55 ns)
+  253 ns: SCH: Found TID:231 with higher priority
+  253 ns: SCH: Picked TID:231              addr:  e2  data:    72bb 
+  254 ns: SCH: Found older TID:262 with same priority(age=56 ns)
+  254 ns: SCH: Found TID:234 with higher priority
+  254 ns: SCH: Picked TID:234              addr:  65  data:       0 
+  255 ns: CPU: TID:305  CPU2->MEM1  Read   addr:  3a  data:       0 pr:0
+  255 ns: SCH: Found older TID:262 with same priority(age=57 ns)
+  255 ns: SCH: Found TID:236 with higher priority
+  255 ns: SCH: Picked TID:236              addr:  98  data:    cf1b 
+  256 ns: CPU: TID:306  CPU2->MEM0  Read   addr:  c0  data:       0 pr:1
+  256 ns: SCH: Found older TID:262 with same priority(age=58 ns)
+  256 ns: SCH: Found older TID:238 with same priority(age=78 ns)
+  256 ns: SCH: Found older TID:228 with same priority(age=86 ns)
+  256 ns: SCH: Picked TID:228              addr:  3d  data:    a864 
+  257 ns: CPU: TID:307  CPU2->MEM1  Write  addr:  61  data:    e04f pr:1
+  257 ns: SCH: Found older TID:262 with same priority(age=59 ns)
+  257 ns: SCH: Found older TID:238 with same priority(age=79 ns)
+  257 ns: SCH: Found TID:230 with higher priority
+  257 ns: SCH: Picked TID:230              addr:  96  data:    8fc8 
+  258 ns: SCH: Found older TID:262 with same priority(age=60 ns)
+  258 ns: SCH: Found older TID:238 with same priority(age=80 ns)
+  258 ns: SCH: Found older TID:232 with same priority(age=85 ns)
+  258 ns: SCH: Picked TID:232              addr:  dc  data:    fc5a 
+  259 ns: CPU: TID:309  CPU3->MEM0  Write  addr:  e3  data:    416a pr:2
+  259 ns: SCH: Found older TID:262 with same priority(age=61 ns)
+  259 ns: SCH: Found older TID:238 with same priority(age=81 ns)
+  259 ns: SCH: Found TID:233 with higher priority
+  259 ns: SCH: Picked TID:233              addr:  96  data:    95b1 
+  259 ns: CPU: TID:310  CPU2->MEM0  Read   addr:  5e  data:       0 pr:1
+  260 ns: SCH: Found older TID:262 with same priority(age=62 ns)
+  260 ns: SCH: Found older TID:238 with same priority(age=82 ns)
+  260 ns: SCH: Found older TID:235 with same priority(age=84 ns)
+  260 ns: SCH: Picked TID:235              addr:  a1  data:    5fd3 
+  261 ns: CPU: TID:311  CPU2->MEM2  Write  addr:  66  data:    da7d pr:1
+  261 ns: SCH: Found older TID:262 with same priority(age=63 ns)
+  261 ns: SCH: Found older TID:238 with same priority(age=83 ns)
+  261 ns: SCH: Found TID:237 with higher priority
+  261 ns: SCH: Picked TID:237              addr:  6e  data:    baf4 
+  261 ns: CPU: TID:312  CPU3->MEM1  Write  addr:  a4  data:    8892 pr:3
+  262 ns: CPU: TID:313  CPU2->MEM2  Read   addr:  ce  data:       0 pr:2
+  262 ns: SCH: Found older TID:262 with same priority(age=64 ns)
+  262 ns: SCH: Found older TID:238 with same priority(age=84 ns)
+  262 ns: SCH: Found TID:239 with higher priority
+  262 ns: SCH: Picked TID:239              addr:  b9  data:       0 
+  263 ns: CPU: TID:314  CPU3->MEM2  Write  addr:  c8  data:    66aa pr:2
+  263 ns: SCH: Found older TID:262 with same priority(age=65 ns)
+  263 ns: SCH: Found older TID:238 with same priority(age=85 ns)
+  263 ns: SCH: Found TID:240 with higher priority
+  263 ns: SCH: Picked TID:240              addr:  70  data:    720b 
+  264 ns: CPU: TID:315  CPU2->MEM2  Read   addr:   6  data:       0 pr:1
+  264 ns: SCH: Found older TID:262 with same priority(age=66 ns)
+  264 ns: SCH: Found older TID:238 with same priority(age=86 ns)
+  264 ns: SCH: Picked TID:238              addr:  e2  data:    1113 
+  264 ns: CPU: TID:315  CPU3->MEM0  Write  addr:  14  data:    cbac pr:0
+  265 ns: SCH: Found older TID:262 with same priority(age=67 ns)
+  265 ns: SCH: Found TID:240 with higher priority
+  265 ns: SCH: Picked TID:240              addr:  7b  data:     6e9 
+  265 ns: CPU: TID:316  CPU3->MEM0  Write  addr:  ea  data:    abdf pr:1
+  266 ns: SCH: Found older TID:262 with same priority(age=68 ns)
+  266 ns: SCH: Found TID:295 with higher priority
+  266 ns: SCH: Picked TID:295              addr:  99  data:    f336 
+  267 ns: CPU: TID:318  CPU2->MEM1  Write  addr:  14  data:    1dd8 pr:2
+  267 ns: SCH: Found older TID:262 with same priority(age=69 ns)
+  267 ns: SCH: Found TID:297 with higher priority
+  267 ns: SCH: Picked TID:297              addr:  c7  data:       0 
+  267 ns: CPU: TID:319  CPU3->MEM0  Write  addr:  db  data:    27c0 pr:0
+  268 ns: CPU: TID:320  CPU2->MEM2  Write  addr:  b8  data:    c5cc pr:2
+  268 ns: SCH: Found older TID:262 with same priority(age=70 ns)
+  268 ns: SCH: Found TID:298 with higher priority
+  268 ns: SCH: Picked TID:298              addr:  2f  data:    323e 
+  269 ns: CPU: TID:321  CPU3->MEM0  Read   addr:   1  data:       0 pr:0
+  269 ns: SCH: Found older TID:262 with same priority(age=71 ns)
+  269 ns: SCH: Found older TID:243 with same priority(age=86 ns)
+  269 ns: SCH: Picked TID:243              addr:  e2  data:    2df8 
+  270 ns: CPU: TID:322  CPU2->MEM2  Read   addr:  7e  data:       0 pr:2
+  270 ns: SCH: Found older TID:262 with same priority(age=72 ns)
+  270 ns: SCH: Found TID:244 with higher priority
+  270 ns: SCH: Picked TID:244              addr:  40  data:       0 
+  271 ns: CPU: TID:323  CPU3->MEM1  Write  addr:  77  data:    4a49 pr:0
+  271 ns: SCH: Found older TID:262 with same priority(age=73 ns)
+  271 ns: SCH: Found TID:246 with higher priority
+  271 ns: SCH: Picked TID:246              addr:  72  data:    4b45 
+  272 ns: CPU: TID:324  CPU2->MEM1  Read   addr:  d2  data:       0 pr:0
+  272 ns: SCH: Found older TID:262 with same priority(age=74 ns)
+  272 ns: SCH: Found TID:249 with higher priority
+  272 ns: SCH: Picked TID:249              addr:  ef  data:    395b 
+  273 ns: CPU: TID:325  CPU3->MEM2  Read   addr:  6e  data:       0 pr:3
+  273 ns: SCH: Found older TID:262 with same priority(age=75 ns)
+  273 ns: SCH: Found TID:251 with higher priority
+  273 ns: SCH: Picked TID:251              addr:   d  data:       0 
+  273 ns: CPU: TID:326  CPU2->MEM2  Write  addr:  e1  data:    34ea pr:0
+  274 ns: SCH: Found older TID:262 with same priority(age=76 ns)
+  274 ns: SCH: Found TID:253 with higher priority
+  274 ns: SCH: Picked TID:253              addr:  59  data:       0 
+  275 ns: CPU: TID:326  CPU3->MEM0  Read   addr:  c3  data:       0 pr:0
+  275 ns: SCH: Found older TID:262 with same priority(age=77 ns)
+  275 ns: SCH: Found older TID:255 with same priority(age=82 ns)
+  275 ns: SCH: Picked TID:255              addr:  f2  data:       0 
+  276 ns: SCH: Found older TID:262 with same priority(age=78 ns)
+  276 ns: SCH: Found TID:257 with higher priority
+  276 ns: SCH: Picked TID:257              addr:  e0  data:    2837 
+  277 ns: CPU: TID:327  CPU3->MEM2  Read   addr:  d6  data:       0 pr:2
+  277 ns: CPU3 finished sending transactions -------------------------
+  277 ns: SCH: Found older TID:262 with same priority(age=79 ns)
+  277 ns: SCH: Found TID:259 with higher priority
+  277 ns: SCH: Picked TID:259              addr:   8  data:    76b7 
+  278 ns: SCH: Found older TID:262 with same priority(age=80 ns)
+  278 ns: SCH: Found older TID:261 with same priority(age=81 ns)
+  278 ns: SCH: Picked TID:261              addr:  7e  data:    1bb2 
+  279 ns: SCH: Found older TID:262 with same priority(age=81 ns)
+  279 ns: SCH: Found TID:309 with higher priority
+  279 ns: SCH: Picked TID:309              addr:  e3  data:    416a 
+  280 ns: SCH: Found older TID:262 with same priority(age=82 ns)
+  280 ns: SCH: Found TID:312 with higher priority
+  280 ns: SCH: Picked TID:312              addr:  a4  data:    8892 
+  281 ns: SCH: Found older TID:262 with same priority(age=83 ns)
+  281 ns: SCH: Found TID:314 with higher priority
+  281 ns: SCH: Picked TID:314              addr:  c8  data:    66aa 
+  282 ns: SCH: Found older TID:262 with same priority(age=84 ns)
+  282 ns: SCH: Picked TID:262              addr:  d2  data:    19e5 
+  283 ns: SCH: Found TID:264 with higher priority
+  283 ns: SCH: Picked TID:264              addr:  d6  data:       0 
+  284 ns: SCH: Found TID:268 with higher priority
+  284 ns: SCH: Picked TID:268              addr:  c3  data:    6277 
+  285 ns: CPU: TID:329  CPU1->MEM2  Write  addr:  b2  data:     8d2 pr:1
+  285 ns: CPU1 finished sending transactions -------------------------
+  285 ns: SCH: Found TID:269 with higher priority
+  285 ns: SCH: Picked TID:269              addr:  b5  data:       0 
+  286 ns: SCH: Found TID:270 with higher priority
+  286 ns: SCH: Picked TID:270              addr:  9d  data:       0 
+  287 ns: SCH: Found TID:271 with higher priority
+  287 ns: SCH: Picked TID:271              addr:  f2  data:    f85f 
+  288 ns: SCH: Found TID:272 with higher priority
+  288 ns: SCH: Picked TID:272              addr:  b0  data:    ffa9 
+  289 ns: SCH: Found older TID:273 with same priority(age=78 ns)
+  289 ns: SCH: Picked TID:273              addr:  27  data:       0 
+  290 ns: SCH: Found older TID:274 with same priority(age=77 ns)
+  290 ns: SCH: Picked TID:274              addr:  80  data:    a0af 
+  291 ns: SCH: Found TID:277 with higher priority
+  291 ns: SCH: Picked TID:277              addr:  13  data:    b61b 
+  292 ns: SCH: Found TID:278 with higher priority
+  292 ns: SCH: Picked TID:278              addr:  a4  data:    501f 
+  293 ns: SCH: Found TID:280 with higher priority
+  293 ns: SCH: Picked TID:280              addr:  71  data:    d033 
+  294 ns: SCH: Found TID:290 with higher priority
+  294 ns: SCH: Picked TID:290              addr:  51  data:    b63d 
+  295 ns: SCH: Found TID:291 with higher priority
+  295 ns: SCH: Picked TID:291              addr:  c9  data:    acb1 
+  296 ns: SCH: Picked TID:282              addr:  65  data:    f454 
+  297 ns: SCH: Picked TID:283              addr:  77  data:    1017 
+  298 ns: SCH: Picked TID:284              addr:  85  data:    2537 
+  299 ns: SCH: Picked TID:285              addr:  bb  data:    757e 
+  300 ns: SCH: Picked TID:286              addr:  bb  data:    5568 
+  301 ns: SCH: Picked TID:287              addr:  f7  data:       0 
+  302 ns: SCH: Picked TID:288              addr:  78  data:    8ab7 
+  303 ns: SCH: Picked TID:292              addr:  c6  data:       0 
+  304 ns: SCH: Picked TID:294              addr:  ee  data:    133e 
+  305 ns: SCH: Picked TID:296              addr:  d6  data:    b22c 
+  306 ns: SCH: Picked TID:298              addr:  56  data:    6b48 
+  307 ns: SCH: Picked TID:329              addr:  b2  data:     8d2 
+  308 ns: SCH: Picked TID:299              addr:  ec  data:    8ac2 
+  309 ns: SCH: Picked TID:300              addr:  11  data:    2191 
+  310 ns: SCH: Picked TID:301              addr:  5f  data:    40f8 
+  311 ns: CPU: TID:331  CPU2->MEM2  Write  addr:  65  data:    7e41 pr:2
+  311 ns: SCH: Picked TID:302              addr:  e2  data:    a634 
+  312 ns: SCH: Picked TID:303              addr:  69  data:    3510 
+  313 ns: CPU: TID:332  CPU2->MEM2  Write  addr:  4a  data:    4067 pr:1
+  313 ns: SCH: Picked TID:304              addr:  e5  data:    b66a 
+  314 ns: CPU: TID:333  CPU2->MEM2  Write  addr:  b2  data:    c6ef pr:2
+  314 ns: SCH: Picked TID:305              addr:  3a  data:       0 
+  315 ns: CPU: TID:334  CPU2->MEM0  Write  addr:  a5  data:    f166 pr:0
+  315 ns: SCH: Picked TID:306              addr:  c0  data:       0 
+  316 ns: SCH: Picked TID:307              addr:  61  data:    e04f 
+  317 ns: CPU: TID:335  CPU2->MEM1  Read   addr:  c2  data:       0 pr:3
+  317 ns: SCH: Picked TID:310              addr:  5e  data:       0 
+  318 ns: CPU: TID:336  CPU2->MEM2  Read   addr:  d4  data:       0 pr:3
+  318 ns: SCH: Picked TID:311              addr:  66  data:    da7d 
+  319 ns: CPU: TID:337  CPU2->MEM0  Write  addr:  22  data:    b868 pr:2
+  319 ns: SCH: Picked TID:313              addr:  ce  data:       0 
+  320 ns: SCH: Picked TID:315              addr:   6  data:       0 
+  321 ns: CPU: TID:338  CPU2->MEM1  Write  addr:   a  data:    9a4f pr:1
+  321 ns: CPU2 finished sending transactions -------------------------
+  321 ns: SCH: Picked TID:318              addr:  14  data:    1dd8 
+  322 ns: SCH: Picked TID:320              addr:  b8  data:    c5cc 
+  323 ns: SCH: Picked TID:322              addr:  7e  data:       0 
+  324 ns: SCH: Found older TID:315 with same priority(age=60 ns)
+  324 ns: SCH: Picked TID:315              addr:  14  data:    cbac 
+  325 ns: SCH: Found TID:316 with higher priority
+  325 ns: SCH: Picked TID:316              addr:  ea  data:    abdf 
+  326 ns: SCH: Found older TID:319 with same priority(age=59 ns)
+  326 ns: SCH: Picked TID:319              addr:  db  data:    27c0 
+  327 ns: SCH: Found older TID:321 with same priority(age=58 ns)
+  327 ns: SCH: Picked TID:321              addr:   1  data:       0 
+  328 ns: SCH: Found older TID:323 with same priority(age=57 ns)
+  328 ns: SCH: Picked TID:323              addr:  77  data:    4a49 
+  329 ns: SCH: Found TID:325 with higher priority
+  329 ns: SCH: Picked TID:325              addr:  6e  data:       0 
+  330 ns: SCH: Picked TID:324              addr:  d2  data:       0 
+  331 ns: SCH: Picked TID:326              addr:  e1  data:    34ea 
+  332 ns: SCH: Picked TID:331              addr:  65  data:    7e41 
+  333 ns: SCH: Picked TID:332              addr:  4a  data:    4067 
+  334 ns: SCH: Picked TID:333              addr:  b2  data:    c6ef 
+  335 ns: SCH: Found older TID:326 with same priority(age=60 ns)
+  335 ns: SCH: Picked TID:326              addr:  c3  data:       0 
+  336 ns: SCH: Found TID:327 with higher priority
+  336 ns: SCH: Picked TID:327              addr:  d6  data:       0 
+  337 ns: SCH: Picked TID:334              addr:  a5  data:    f166 
+  338 ns: SCH: Picked TID:335              addr:  c2  data:       0 
+  339 ns: SCH: Picked TID:336              addr:  d4  data:       0 
+  340 ns: SCH: Picked TID:337              addr:  22  data:    b868 
+  341 ns: SCH: Picked TID:338              addr:   a  data:    9a4f 
+  541 ns: SCH : Scheduler timeout(100 ns) while waiting for requests
+  541 ns: SCH : Scheduler finished.
+############  Summary  ############
+
+CROSSBAR 4 CPUs x 3 MEMs 
+
+Total transactions issued:    339  
+Total transactions completed: 339  
+Time spent per transaction: 

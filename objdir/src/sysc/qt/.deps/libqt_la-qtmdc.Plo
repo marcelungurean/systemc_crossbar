@@ -1,0 +1,3 @@
+libqt_la-qtmdc.lo: qtmdc.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,2052 @@
+CPU0created.CPU0created.CPU0created.
+CPU 0 sending 886 transactions.
+CPU 1 sending 915 transactions.
+CPU 2 sending 335 transactions.
+New Trans:R CPU1->MEM0 [cd] D:deadbeef
+New Trans:R CPU2->MEM1 [e3] D:deadbeef
+New Trans:R CPU0->MEM1 [f8] D:deadbeef
+New Trans:W CPU2->MEM0 [76] D:255a
+Nom trans:231b
+New Trans:W CPU2->MEM1 [c9] D:79a
+Nom trans:58ba
+New Trans:W CPU1->MEM0 [31] D:e458
+New Trans:R CPU2->MEM0 [5d] D:deadbeef
+New Trans:R CPU1->MEM1 [5e] D:deadbeef
+New Trans:R CPU0->MEM2 [c6] D:deadbeef
+New Trans:R CPU0->MEM0 [e] D:deadbeef
+New Trans:W CPU1->MEM0 [3d] D:8ddc
+Nom trans:e146
+New Trans:W CPU2->MEM1 [a1] D:c241
+New Trans:R CPU0->MEM0 [3e] D:deadbeef
+Nom trans:769b
+New Trans:R CPU1->MEM2 [6b] D:deadbeef
+New Trans:R CPU0->MEM0 [2a] D:deadbeef
+New Trans:W CPU2->MEM2 [32] D:ccaf
+New Trans:R CPU0->MEM2 [18] D:deadbeef
+New Trans:R CPU2->MEM0 [fe] D:deadbeef
+Nom trans:e458
+New Trans:R CPU1->MEM1 [fb] D:deadbeef
+Nom trans:255a
+New Trans:W CPU0->MEM0 [7c] D:c794
+Nom trans:1d82
+New Trans:R CPU0->MEM1 [89] D:deadbeef
+New Trans:W CPU2->MEM1 [99] D:b60f
+Nom trans:a8d4
+New Trans:W CPU1->MEM0 [b3] D:7e05
+New Trans:W CPU0->MEM1 [e9] D:eaa1
+Nom trans:79a
+New Trans:R CPU2->MEM2 [cb] D:deadbeef
+New Trans:W CPU0->MEM2 [bd] D:121f
+New Trans:R CPU1->MEM0 [1c] D:deadbeef
+New Trans:W CPU1->MEM0 [73] D:3e5a
+Nom trans:5f01
+New Trans:W CPU2->MEM1 [63] D:813b
+New Trans:R CPU1->MEM2 [11] D:deadbeef
+Nom trans:8ddc
+New Trans:R CPU0->MEM1 [ac] D:deadbeef
+New Trans:R CPU1->MEM0 [3b] D:deadbeef
+Nom trans:b105
+New Trans:R CPU2->MEM1 [47] D:deadbeef
+New Trans:W CPU1->MEM2 [22] D:119
+New Trans:W CPU0->MEM2 [f5] D:370b
+Nom trans:42ec
+New Trans:R CPU0->MEM0 [23] D:deadbeef
+New Trans:R CPU2->MEM1 [1b] D:deadbeef
+New Trans:R CPU1->MEM2 [e8] D:deadbeef
+New Trans:R CPU2->MEM0 [79] D:deadbeef
+Nom trans:7796
+New Trans:R CPU0->MEM0 [4e] D:deadbeef
+New Trans:W CPU0->MEM1 [5] D:6aac
+New Trans:W CPU0->MEM2 [aa] D:591a
+New Trans:R CPU1->MEM0 [70] D:deadbeef
+New Trans:W CPU2->MEM1 [5c] D:29d3
+Nom trans:c241
+New Trans:W CPU2->MEM0 [e2] D:fcf0
+New Trans:R CPU2->MEM2 [32] D:deadbeef
+New Trans:W CPU2->MEM0 [4e] D:b5a9
+New Trans:R CPU1->MEM1 [b2] D:deadbeef
+New Trans:R CPU2->MEM1 [9a] D:deadbeef
+New Trans:W CPU0->MEM0 [18] D:47a8
+Nom trans:7fdb
+New Trans:W CPU2->MEM0 [8e] D:574c
+Nom trans:a529
+New Trans:W CPU1->MEM0 [42] D:f3e5
+New Trans:R CPU2->MEM0 [af] D:deadbeef
+New Trans:R CPU0->MEM0 [2d] D:deadbeef
+Nom trans:ccaf
+New Trans:W CPU1->MEM2 [32] D:8c1c
+Nom trans:c794
+New Trans:R CPU1->MEM0 [f6] D:deadbeef
+Nom trans:7e05
+New Trans:R CPU2->MEM1 [b2] D:deadbeef
+New Trans:R CPU0->MEM1 [b] D:deadbeef
+Nom trans:bb43
+Nom trans:e9f9
+New Trans:W CPU1->MEM0 [5] D:80f1
+New Trans:W CPU2->MEM1 [33] D:fbb7
+Nom trans:ee7b
+New Trans:W CPU2->MEM1 [14] D:67d3
+New Trans:R CPU1->MEM2 [5e] D:deadbeef
+New Trans:R CPU0->MEM1 [f6] D:deadbeef
+Nom trans:b60f
+New Trans:R CPU2->MEM2 [bc] D:deadbeef
+Nom trans:eaa1
+Nom trans:3e5a
+New Trans:W CPU0->MEM2 [23] D:57d0
+New Trans:R CPU2->MEM2 [6a] D:deadbeef
+New Trans:R CPU1->MEM2 [51] D:deadbeef
+New Trans:R CPU0->MEM0 [53] D:deadbeef
+Nom trans:7fd0
+New Trans:W CPU0->MEM2 [32] D:6f57
+New Trans:R CPU0->MEM2 [bc] D:deadbeef
+New Trans:W CPU1->MEM1 [8] D:8df5
+New Trans:R CPU1->MEM0 [53] D:deadbeef
+New Trans:R CPU2->MEM2 [d0] D:deadbeef
+New Trans:R CPU0->MEM0 [d8] D:deadbeef
+Nom trans:121f
+New Trans:R CPU1->MEM0 [64] D:deadbeef
+New Trans:R CPU0->MEM0 [75] D:deadbeef
+New Trans:R CPU1->MEM0 [3f] D:deadbeef
+Nom trans:709e
+New Trans:R CPU0->MEM0 [7c] D:deadbeef
+New Trans:W CPU1->MEM1 [57] D:ed59
+New Trans:W CPU1->MEM2 [ac] D:9786
+Nom trans:813b
+New Trans:R CPU2->MEM1 [e4] D:deadbeef
+Nom trans:11f2
+New Trans:R CPU0->MEM2 [f1] D:deadbeef
+Nom trans:7e33
+Nom trans:c315
+New Trans:R CPU2->MEM1 [66] D:deadbeef
+New Trans:W CPU1->MEM1 [63] D:41af
+Nom trans:370b
+Nom trans:119
+New Trans:W CPU1->MEM2 [3a] D:7dff
+Nom trans:7713
+New Trans:R CPU0->MEM1 [ac] D:deadbeef
+Nom trans:5af8
+New Trans:W CPU2->MEM1 [34] D:6f2d
+New Trans:W CPU0->MEM2 [4f] D:d089
+Nom trans:1298
+Nom trans:5c4d
+Nom trans:8277
+New Trans:R CPU1->MEM0 [83] D:deadbeef
+New Trans:R CPU0->MEM0 [96] D:deadbeef
+New Trans:R CPU2->MEM0 [39] D:deadbeef
+Nom trans:21b5
+New Trans:R CPU1->MEM0 [9d] D:deadbeef
+Nom trans:29d3
+Nom trans:6aac
+New Trans:R CPU2->MEM0 [f4] D:deadbeef
+New Trans:R CPU0->MEM0 [ca] D:deadbeef
+Nom trans:858a
+New Trans:R CPU1->MEM0 [16] D:deadbeef
+Nom trans:fcf0
+New Trans:R CPU2->MEM0 [f2] D:deadbeef
+Nom trans:591a
+Nom trans:f3e5
+New Trans:R CPU0->MEM2 [2a] D:deadbeef
+New Trans:R CPU1->MEM2 [61] D:deadbeef
+Nom trans:8d15
+New Trans:R CPU2->MEM0 [3] D:deadbeef
+Nom trans:47a8
+Nom trans:8c1c
+New Trans:W CPU1->MEM0 [d2] D:aad3
+New Trans:W CPU0->MEM2 [79] D:8b
+Nom trans:b5a9
+Nom trans:67ad
+New Trans:R CPU2->MEM1 [18] D:deadbeef
+Nom trans:2e20
+New Trans:W CPU0->MEM2 [45] D:5da3
+Nom trans:e80a
+New Trans:W CPU2->MEM1 [2a] D:c4d9
+New Trans:W CPU1->MEM0 [43] D:d62f
+Nom trans:28b9
+New Trans:R CPU0->MEM0 [61] D:deadbeef
+Nom trans:80f1
+New Trans:R CPU1->MEM2 [fc] D:deadbeef
+Nom trans:574c
+Nom trans:b105
+Nom trans:dfa0
+New Trans:W CPU1->MEM1 [cf] D:c971
+New Trans:W CPU2->MEM1 [3a] D:d275
+New Trans:W CPU0->MEM0 [76] D:f0ea
+Nom trans:82cd
+Nom trans:57d0
+New Trans:W CPU2->MEM2 [fd] D:51fe
+Nom trans:cf25
+Nom trans:4807
+Nom trans:413a
+New Trans:W CPU2->MEM2 [7e] D:8c4e
+New Trans:R CPU0->MEM2 [f9] D:deadbeef
+Nom trans:8df5
+New Trans:W CPU1->MEM0 [a4] D:743c
+Nom trans:fbb7
+Nom trans:6f57
+Nom trans:6f60
+New Trans:R CPU0->MEM1 [f3] D:deadbeef
+Nom trans:67d3
+New Trans:R CPU1->MEM0 [8b] D:deadbeef
+New Trans:W CPU2->MEM1 [5b] D:fe17
+New Trans:R CPU0->MEM2 [98] D:deadbeef
+Nom trans:8de9
+New Trans:W CPU0->MEM2 [a7] D:fb0d
+New Trans:R CPU2->MEM1 [bf] D:deadbeef
+Nom trans:af98
+New Trans:W CPU1->MEM1 [1] D:28d6
+Nom trans:8544
+New Trans:R CPU1->MEM2 [3e] D:deadbeef
+New Trans:R CPU2->MEM1 [21] D:deadbeef
+Nom trans:3735
+Nom trans:b462
+New Trans:R CPU0->MEM0 [63] D:deadbeef
+New Trans:W CPU1->MEM2 [97] D:38de
+Nom trans:b37e
+Nom trans:f265
+New Trans:W CPU2->MEM1 [1b] D:4301
+New Trans:W CPU0->MEM1 [d8] D:e0fd
+Nom trans:ed59
+New Trans:R CPU1->MEM1 [a4] D:deadbeef
+Nom trans:7e85
+New Trans:R CPU2->MEM0 [98] D:deadbeef
+Nom trans:dfa5
+Nom trans:9786
+New Trans:W CPU0->MEM0 [33] D:fbdd
+Nom trans:b885
+Nom trans:7b7c
+New Trans:R CPU1->MEM0 [ef] D:deadbeef
+Nom trans:41af
+Nom trans:dfda
+New Trans:W CPU0->MEM0 [a4] D:5a4d
+New Trans:W CPU2->MEM0 [1c] D:ca53
+New Trans:R CPU2->MEM0 [66] D:deadbeef
+New Trans:R CPU1->MEM1 [79] D:deadbeef
+Nom trans:b207
+New Trans:W CPU0->MEM0 [68] D:dcf3
+Nom trans:7dff
+Nom trans:6f2d
+Nom trans:d089
+New Trans:R CPU0->MEM1 [d2] D:deadbeef
+New Trans:R CPU2->MEM0 [6c] D:deadbeef
+New Trans:W CPU1->MEM0 [54] D:ad2a
+Nom trans:4a67
+Nom trans:2302
+New Trans:R CPU2->MEM1 [16] D:deadbeef
+New Trans:W CPU1->MEM2 [8] D:72db
+Nom trans:7f12
+New Trans:R CPU0->MEM0 [a7] D:deadbeef
+Nom trans:ac77
+New Trans:W CPU1->MEM1 [a0] D:b70d
+Nom trans:91f
+New Trans:W CPU2->MEM1 [cd] D:929b
+Nom trans:626c
+New Trans:R CPU0->MEM1 [70] D:deadbeef
+Nom trans:fd68
+New Trans:R CPU1->MEM0 [98] D:deadbeef
+Nom trans:2b4
+New Trans:W CPU2->MEM0 [a7] D:defa
+Nom trans:29cb
+Nom trans:2fc9
+Nom trans:6e28
+New Trans:R CPU0->MEM2 [5d] D:deadbeef
+New Trans:R CPU2->MEM0 [a5] D:deadbeef
+New Trans:W CPU1->MEM2 [b7] D:6e13
+Nom trans:8b
+Nom trans:aad3
+New Trans:W CPU0->MEM0 [23] D:4e4e
+New Trans:R CPU1->MEM0 [5b] D:deadbeef
+Nom trans:a5d1
+New Trans:W CPU2->MEM1 [6b] D:6228
+Nom trans:5da3
+New Trans:W CPU0->MEM0 [37] D:3580
+Nom trans:d62f
+New Trans:R CPU1->MEM1 [d7] D:deadbeef
+Nom trans:c4d9
+Nom trans:a67c
+New Trans:W CPU2->MEM1 [7c] D:d273
+Nom trans:9f72
+New Trans:W CPU1->MEM0 [c0] D:685a
+New Trans:W CPU0->MEM1 [7b] D:a9c
+Nom trans:d275
+New Trans:R CPU2->MEM1 [bc] D:deadbeef
+Nom trans:f0ea
+Nom trans:c971
+New Trans:R CPU0->MEM0 [57] D:deadbeef
+New Trans:R CPU1->MEM1 [4c] D:deadbeef
+Nom trans:51fe
+Nom trans:797c
+New Trans:R CPU2->MEM2 [30] D:deadbeef
+New Trans:W CPU0->MEM2 [e0] D:9756
+Nom trans:743c
+New Trans:W CPU1->MEM1 [71] D:9eff
+Nom trans:8c4e
+Nom trans:8401
+Nom trans:7b67
+New Trans:R CPU2->MEM0 [9] D:deadbeef
+Nom trans:fe17
+New Trans:W CPU1->MEM0 [1d] D:f1ee
+New Trans:R CPU0->MEM0 [6e] D:deadbeef
+Nom trans:e50a
+Nom trans:28d6
+New Trans:R CPU1->MEM1 [f8] D:deadbeef
+New Trans:W CPU2->MEM0 [e3] D:5211
+New Trans:R CPU0->MEM1 [b9] D:deadbeef
+Nom trans:3ab
+Nom trans:fb0d
+New Trans:W CPU2->MEM0 [fd] D:fca2
+New Trans:R CPU0->MEM2 [90] D:deadbeef
+Nom trans:b7c5
+Nom trans:a02e
+New Trans:R CPU1->MEM0 [2d] D:deadbeef
+New Trans:W CPU2->MEM2 [cb] D:1a5c
+Nom trans:85c9
+New Trans:W CPU0->MEM2 [46] D:a827
+Nom trans:38de
+New Trans:W CPU1->MEM2 [8d] D:5b8a
+Nom trans:4301
+Nom trans:e0fd
+New Trans:R CPU2->MEM0 [6a] D:deadbeef
+New Trans:R CPU0->MEM2 [39] D:deadbeef
+Nom trans:2ee3
+Nom trans:174b
+New Trans:R CPU1->MEM2 [87] D:deadbeef
+New Trans:R CPU2->MEM2 [61] D:deadbeef
+Nom trans:fbdd
+New Trans:R CPU0->MEM0 [90] D:deadbeef
+Nom trans:53e5
+New Trans:R CPU1->MEM1 [77] D:deadbeef
+Nom trans:ca53
+New Trans:W CPU2->MEM1 [60] D:d574
+Nom trans:5a4d
+Nom trans:621e
+New Trans:W CPU0->MEM1 [2a] D:f728
+New Trans:W CPU1->MEM0 [1d] D:a9e4
+Nom trans:e424
+Nom trans:dcf3
+New Trans:R CPU2->MEM1 [e8] D:deadbeef
+New Trans:R CPU0->MEM2 [8a] D:deadbeef
+Nom trans:ad2a
+New Trans:W CPU1->MEM1 [df] D:e918
+Nom trans:573a
+Nom trans:15eb
+Nom trans:72db
+New Trans:W CPU2->MEM2 [57] D:b154
+New Trans:W CPU1->MEM2 [39] D:a0d1
+New Trans:R CPU0->MEM0 [9b] D:deadbeef
+Nom trans:489e
+Nom trans:cf4d
+New Trans:W CPU0->MEM1 [96] D:5ff3
+New Trans:R CPU2->MEM2 [c] D:deadbeef
+Nom trans:b70d
+Nom trans:929b
+New Trans:W CPU1->MEM1 [c4] D:bb22
+Nom trans:ed4c
+New Trans:R CPU0->MEM1 [ef] D:deadbeef
+New Trans:R CPU2->MEM0 [66] D:deadbeef
+Nom trans:97f2
+New Trans:W CPU1->MEM0 [87] D:7768
+Nom trans:defa
+New Trans:W CPU2->MEM0 [6b] D:3267
+Nom trans:a209
+Nom trans:6e13
+New Trans:R CPU0->MEM2 [3] D:deadbeef
+New Trans:W CPU1->MEM1 [60] D:c8ff
+Nom trans:9e2
+Nom trans:4e4e
+New Trans:W CPU2->MEM2 [c6] D:39dd
+Nom trans:6675
+New Trans:R CPU0->MEM0 [99] D:deadbeef
+New Trans:R CPU1->MEM0 [d1] D:deadbeef
+Nom trans:6228
+New Trans:R CPU2->MEM0 [b7] D:deadbeef
+Nom trans:3580
+Nom trans:7f19
+New Trans:R CPU0->MEM2 [36] D:deadbeef
+Nom trans:d273
+Nom trans:a9c
+New Trans:R CPU1->MEM2 [83] D:deadbeef
+Nom trans:685a
+New Trans:W CPU2->MEM0 [3c] D:f231
+New Trans:R CPU1->MEM2 [cf] D:deadbeef
+New Trans:R CPU0->MEM0 [13] D:deadbeef
+Nom trans:8d02
+New Trans:W CPU2->MEM0 [ab] D:ead0
+Nom trans:f102
+New Trans:R CPU0->MEM2 [78] D:deadbeef
+Nom trans:624
+Nom trans:75d2
+Nom trans:9756
+New Trans:W CPU1->MEM2 [11] D:372b
+New Trans:W CPU2->MEM2 [38] D:c7be
+Nom trans:9eff
+Nom trans:1333
+New Trans:W CPU0->MEM0 [a9] D:3aa3
+New Trans:R CPU1->MEM0 [73] D:deadbeef
+Nom trans:a220
+New Trans:W CPU2->MEM0 [36] D:6c3a
+New Trans:R CPU0->MEM2 [3b] D:deadbeef
+Nom trans:f1ee
+Nom trans:5211
+New Trans:W CPU2->MEM2 [3c] D:1b8d
+Nom trans:a941
+New Trans:W CPU1->MEM2 [93] D:684f
+New Trans:W CPU0->MEM1 [f2] D:c907
+Nom trans:c0e3
+Nom trans:fca2
+Nom trans:62f4
+Nom trans:cce8
+New Trans:R CPU1->MEM1 [fd] D:deadbeef
+Nom trans:1a5c
+New Trans:R CPU0->MEM2 [42] D:deadbeef
+New Trans:W CPU1->MEM2 [71] D:9f38
+New Trans:R CPU2->MEM0 [dc] D:deadbeef
+Nom trans:a827
+New Trans:W CPU2->MEM1 [aa] D:c831
+Nom trans:5b8a
+New Trans:R CPU0->MEM2 [5a] D:deadbeef
+Nom trans:76ee
+New Trans:R CPU1->MEM1 [74] D:deadbeef
+Nom trans:7c02
+New Trans:R CPU2->MEM2 [75] D:deadbeef
+New Trans:R CPU0->MEM0 [8] D:deadbeef
+Nom trans:c41b
+Nom trans:56ab
+New Trans:R CPU1->MEM1 [d1] D:deadbeef
+Nom trans:be1e
+New Trans:W CPU2->MEM1 [2f] D:a3e1
+New Trans:R CPU0->MEM2 [2b] D:deadbeef
+Nom trans:6e4d
+New Trans:R CPU1->MEM1 [69] D:deadbeef
+Nom trans:d574
+Nom trans:f728
+New Trans:R CPU0->MEM2 [d5] D:deadbeef
+New Trans:R CPU2->MEM0 [ca] D:deadbeef
+Nom trans:a9e4
+New Trans:W CPU1->MEM1 [ef] D:c405
+Nom trans:2b79
+Nom trans:5ed6
+Nom trans:e918
+Nom trans:b154
+New Trans:R CPU1->MEM2 [7c] D:deadbeef
+New Trans:R CPU2->MEM2 [5a] D:deadbeef
+Nom trans:3843
+Nom trans:a0d1
+Nom trans:c87d
+New Trans:R CPU1->MEM0 [3d] D:deadbeef
+New Trans:R CPU0->MEM0 [0] D:deadbeef
+New Trans:W CPU2->MEM2 [c3] D:160d
+Nom trans:5ff3
+New Trans:R CPU2->MEM2 [66] D:deadbeef
+Nom trans:bb22
+New Trans:W CPU0->MEM1 [fd] D:d215
+New Trans:R CPU1->MEM1 [6c] D:deadbeef
+Nom trans:8acf
+New Trans:R CPU0->MEM1 [6b] D:deadbeef
+Nom trans:2a61
+New Trans:W CPU2->MEM0 [5a] D:ed90
+New Trans:R CPU0->MEM2 [a1] D:deadbeef
+Nom trans:7768
+Nom trans:3267
+New Trans:R CPU1->MEM2 [1b] D:deadbeef
+New Trans:R CPU2->MEM2 [6e] D:deadbeef
+Nom trans:7daa
+New Trans:W CPU0->MEM0 [e2] D:1113
+Nom trans:c8ff
+Nom trans:39dd
+New Trans:W CPU1->MEM0 [27] D:9013
+New Trans:W CPU2->MEM2 [7b] D:6e9
+Nom trans:ea4e
+New Trans:W CPU0->MEM2 [b] D:9346
+Nom trans:9e9d
+New Trans:W CPU1->MEM1 [58] D:753b
+Nom trans:3832
+New Trans:R CPU2->MEM2 [e2] D:deadbeef
+Nom trans:bcb2
+Nom trans:beea
+Nom trans:f231
+New Trans:R CPU0->MEM2 [12] D:deadbeef
+New Trans:W CPU1->MEM1 [62] D:d402
+Nom trans:fe95
+New Trans:R CPU2->MEM1 [56] D:deadbeef
+New Trans:R CPU0->MEM1 [a0] D:deadbeef
+Nom trans:89b6
+New Trans:W CPU1->MEM2 [4c] D:b689
+Nom trans:ead0
+New Trans:W CPU2->MEM1 [ef] D:395b
+Nom trans:1341
+Nom trans:372b
+New Trans:R CPU0->MEM0 [53] D:deadbeef
+New Trans:R CPU1->MEM0 [d] D:deadbeef
+Nom trans:c7be
+Nom trans:3aa3
+Nom trans:5ef2
+New Trans:W CPU0->MEM2 [d9] D:8fa8
+New Trans:W CPU2->MEM2 [31] D:e3c7
+Nom trans:6c3a
+New Trans:R CPU1->MEM2 [a7] D:deadbeef
+Nom trans:e843
+New Trans:R CPU0->MEM0 [f8] D:deadbeef
+New Trans:W CPU2->MEM0 [d1] D:2f4e
+Nom trans:684f
+Nom trans:1b8d
+New Trans:R CPU1->MEM0 [37] D:deadbeef
+Nom trans:c907
+Nom trans:ea5
+New Trans:W CPU0->MEM1 [3c] D:67c5
+New Trans:R CPU2->MEM2 [4e] D:deadbeef
+Nom trans:898d
+Nom trans:7d35
+New Trans:R CPU2->MEM1 [12] D:deadbeef
+New Trans:R CPU1->MEM1 [cd] D:deadbeef
+New Trans:W CPU0->MEM2 [b2] D:3b70
+Nom trans:9f38
+Nom trans:c831
+Nom trans:e573
+New Trans:W CPU1->MEM2 [98] D:1b84
+New Trans:R CPU2->MEM0 [3b] D:deadbeef
+New Trans:W CPU0->MEM0 [1d] D:d06b
+Nom trans:efb0
+Nom trans:a025
+New Trans:R CPU1->MEM2 [fc] D:deadbeef
+New Trans:W CPU2->MEM0 [24] D:abef
+Nom trans:b6eb
+New Trans:R CPU0->MEM2 [ac] D:deadbeef
+Nom trans:63e3
+New Trans:R CPU1->MEM1 [77] D:deadbeef
+Nom trans:a3e1
+New Trans:R CPU2->MEM1 [d1] D:deadbeef
+Nom trans:14fc
+Nom trans:9a9f
+New Trans:R CPU0->MEM2 [b4] D:deadbeef
+New Trans:W CPU1->MEM0 [5f] D:67d7
+Nom trans:6d9a
+New Trans:W CPU2->MEM2 [a9] D:705d
+Nom trans:9515
+Nom trans:c405
+New Trans:R CPU0->MEM0 [c1] D:deadbeef
+New Trans:W CPU1->MEM0 [af] D:594c
+Nom trans:9ef9
+Nom trans:b226
+New Trans:R CPU2->MEM2 [9f] D:deadbeef
+New Trans:R CPU0->MEM2 [13] D:deadbeef
+Nom trans:2d8b
+New Trans:R CPU1->MEM0 [a4] D:deadbeef
+Nom trans:160d
+New Trans:W CPU2->MEM1 [2f] D:4889
+Nom trans:d215
+Nom trans:a864
+Nom trans:4530
+New Trans:R CPU0->MEM2 [3] D:deadbeef
+New Trans:W CPU2->MEM1 [16] D:47fc
+New Trans:R CPU1->MEM0 [4f] D:deadbeef
+Nom trans:c53f
+New Trans:R CPU0->MEM1 [54] D:deadbeef
+Nom trans:7188
+Nom trans:ed90
+Nom trans:5fd3
+New Trans:W CPU0->MEM1 [65] D:ad85
+New Trans:W CPU1->MEM0 [b8] D:1051
+New Trans:R CPU2->MEM2 [7e] D:deadbeef
+Nom trans:4887
+New Trans:R CPU1->MEM1 [68] D:deadbeef
+Nom trans:baf4
+New Trans:R CPU2->MEM1 [bb] D:deadbeef
+Nom trans:1113
+Nom trans:9013
+Nom trans:6e9
+New Trans:R CPU0->MEM2 [28] D:deadbeef
+New Trans:W CPU1->MEM2 [27] D:33f6
+Nom trans:9346
+New Trans:W CPU2->MEM0 [c9] D:99dc
+Nom trans:753b
+New Trans:R CPU1->MEM1 [11] D:deadbeef
+New Trans:W CPU0->MEM1 [ee] D:133e
+Nom trans:2df8
+New Trans:R CPU2->MEM2 [99] D:deadbeef
+Nom trans:2779
+Nom trans:d402
+New Trans:R CPU0->MEM2 [db] D:deadbeef
+Nom trans:bfd
+New Trans:W CPU1->MEM2 [bb] D:7c90
+New Trans:R CPU2->MEM2 [56] D:deadbeef
+Nom trans:55c4
+Nom trans:b689
+New Trans:R CPU0->MEM2 [6e] D:deadbeef
+Nom trans:395b
+New Trans:R CPU1->MEM1 [22] D:deadbeef
+New Trans:W CPU2->MEM1 [91] D:7f44
+Nom trans:c5fd
+New Trans:W CPU0->MEM2 [f8] D:8108
+Nom trans:9c03
+New Trans:W CPU1->MEM1 [34] D:69ef
+Nom trans:e3c7
+Nom trans:8fa8
+Nom trans:4d2d
+New Trans:R CPU1->MEM1 [c2] D:deadbeef
+New Trans:R CPU2->MEM0 [cd] D:deadbeef
+New Trans:W CPU0->MEM2 [9e] D:3a2c
+Nom trans:2f4e
+Nom trans:3b45
+New Trans:R CPU2->MEM1 [c8] D:deadbeef
+New Trans:W CPU0->MEM0 [4f] D:5079
+Nom trans:8a2d
+Nom trans:d5b0
+New Trans:W CPU1->MEM1 [3e] D:e879
+New Trans:R CPU2->MEM0 [5e] D:deadbeef
+Nom trans:67c5
+Nom trans:1526
+New Trans:R CPU1->MEM1 [4d] D:deadbeef
+New Trans:R CPU0->MEM1 [a4] D:deadbeef
+Nom trans:bb1b
+New Trans:W CPU2->MEM2 [ce] D:d4e
+Nom trans:3b70
+Nom trans:1b84
+New Trans:R CPU0->MEM2 [fa] D:deadbeef
+New Trans:R CPU1->MEM2 [6] D:deadbeef
+Nom trans:d524
+Nom trans:d06b
+New Trans:R CPU0->MEM1 [92] D:deadbeef
+New Trans:R CPU2->MEM1 [df] D:deadbeef
+Nom trans:cda5
+New Trans:R CPU1->MEM1 [14] D:deadbeef
+Nom trans:abef
+New Trans:R CPU2->MEM0 [db] D:deadbeef
+Nom trans:6bb3
+Nom trans:fd9a
+New Trans:R CPU0->MEM1 [e2] D:deadbeef
+Nom trans:60db
+New Trans:W CPU1->MEM1 [a4] D:3093
+New Trans:R CPU2->MEM2 [7e] D:deadbeef
+Nom trans:91d3
+Nom trans:67d7
+New Trans:W CPU0->MEM0 [1c] D:7d41
+New Trans:W CPU1->MEM1 [d2] D:ce6e
+Nom trans:705d
+New Trans:R CPU2->MEM2 [6e] D:deadbeef
+Nom trans:e6fa
+New Trans:W CPU0->MEM2 [e1] D:34ea
+Nom trans:594c
+Nom trans:4321
+New Trans:W CPU1->MEM0 [fc] D:3a1
+New Trans:W CPU2->MEM0 [a1] D:2f6e
+Nom trans:b61b
+New Trans:W CPU0->MEM1 [d2] D:1481
+Nom trans:501f
+New Trans:R CPU1->MEM1 [41] D:deadbeef
+Nom trans:4889
+Nom trans:652d
+New Trans:W CPU2->MEM1 [34] D:d22c
+New Trans:W CPU0->MEM0 [ef] D:8fda
+Nom trans:54a3
+Nom trans:47fc
+New Trans:R CPU1->MEM0 [13] D:deadbeef
+New Trans:W CPU2->MEM0 [37] D:f967
+Nom trans:f23c
+Nom trans:1051
+New Trans:W CPU1->MEM1 [d2] D:af1e
+New Trans:W CPU0->MEM0 [68] D:7a5e
+Nom trans:0
+Nom trans:ad85
+New Trans:W CPU0->MEM1 [e4] D:66fe
+Nom trans:114b
+New Trans:W CPU2->MEM0 [f3] D:3fb7
+New Trans:R CPU1->MEM0 [79] D:deadbeef
+Nom trans:b819
+New Trans:R CPU2->MEM1 [91] D:deadbeef
+Nom trans:3c51
+New Trans:R CPU0->MEM0 [86] D:deadbeef
+Nom trans:33f6
+Nom trans:99dc
+New Trans:W CPU1->MEM1 [a6] D:33c7
+Nom trans:133e
+New Trans:R CPU0->MEM0 [1f] D:deadbeef
+New Trans:R CPU2->MEM0 [5d] D:deadbeef
+Nom trans:37f7
+Nom trans:f336
+New Trans:W CPU1->MEM2 [6] D:6a98
+Nom trans:2cfd
+New Trans:R CPU2->MEM0 [30] D:deadbeef
+Nom trans:7c90
+New Trans:R CPU0->MEM2 [4b] D:deadbeef
+New Trans:W CPU1->MEM1 [2] D:3325
+Nom trans:6b48
+New Trans:R CPU2->MEM2 [36] D:deadbeef
+Nom trans:af2d
+New Trans:W CPU0->MEM0 [3a] D:7bf1
+Nom trans:d516
+Nom trans:7f44
+New Trans:R CPU1->MEM1 [2] D:deadbeef
+Nom trans:8108
+New Trans:R CPU2->MEM2 [18] D:deadbeef
+New Trans:W CPU0->MEM1 [b8] D:eae6
+Nom trans:69ef
+Nom trans:9e8d
+New Trans:R CPU1->MEM2 [d3] D:deadbeef
+Nom trans:3a2c
+New Trans:R CPU2->MEM0 [6a] D:deadbeef
+New Trans:W CPU0->MEM0 [d7] D:ffd7
+Nom trans:eee5
+Nom trans:a46c
+New Trans:R CPU1->MEM1 [cf] D:deadbeef
+Nom trans:5079
+New Trans:R CPU2->MEM2 [99] D:deadbeef
+Nom trans:e879
+New Trans:R CPU0->MEM1 [df] D:deadbeef
+Nom trans:b952
+New Trans:W CPU1->MEM0 [81] D:1a9b
+Nom trans:8892
+Nom trans:45e4
+Nom trans:d4e
+New Trans:R CPU2->MEM0 [38] D:deadbeef
+New Trans:W CPU0->MEM0 [43] D:4d2c
+New Trans:W CPU1->MEM0 [bc] D:8442
+Nom trans:5606
+New Trans:W CPU2->MEM1 [6a] D:26c2
+Nom trans:2682
+Nom trans:e29d
+New Trans:R CPU0->MEM2 [fd] D:deadbeef
+New Trans:W CPU1->MEM1 [d2] D:5e10
+New Trans:W CPU2->MEM2 [48] D:289a
+Nom trans:53f9
+New Trans:R CPU0->MEM2 [ca] D:deadbeef
+Nom trans:1dd8
+Nom trans:27c0
+New Trans:W CPU1->MEM1 [5e] D:3648
+New Trans:R CPU2->MEM2 [23] D:deadbeef
+Nom trans:cbed
+New Trans:W CPU0->MEM2 [62] D:b8d3
+Nom trans:3093
+Nom trans:ede
+Nom trans:7d41
+New Trans:W CPU1->MEM0 [c8] D:2e01
+New Trans:W CPU2->MEM0 [3a] D:d35d
+New Trans:R CPU0->MEM0 [2c] D:deadbeef
+Nom trans:ce6e
+New Trans:W CPU1->MEM0 [ed] D:f066
+Nom trans:d7fc
+New Trans:R CPU2->MEM2 [a0] D:deadbeef
+Nom trans:34ea
+Nom trans:3a1
+Nom trans:2f6e
+New Trans:R CPU1->MEM1 [52] D:deadbeef
+New Trans:W CPU0->MEM1 [2f] D:4987
+New Trans:W CPU2->MEM2 [3c] D:c1ff
+Nom trans:1481
+Nom trans:26fe
+New Trans:R CPU0->MEM1 [ea] D:deadbeef
+New Trans:R CPU1->MEM1 [1d] D:deadbeef
+Nom trans:d22c
+Nom trans:8fda
+New Trans:W CPU2->MEM1 [40] D:6c62
+Nom trans:6285
+New Trans:W CPU0->MEM2 [8] D:872e
+Nom trans:f967
+New Trans:R CPU1->MEM1 [db] D:deadbeef
+New Trans:R CPU2->MEM2 [3a] D:deadbeef
+Nom trans:7a5e
+Nom trans:af1e
+Nom trans:3fb7
+New Trans:W CPU0->MEM1 [2] D:1d73
+Nom trans:66fe
+New Trans:W CPU0->MEM0 [f1] D:8912
+New Trans:R CPU1->MEM0 [55] D:deadbeef
+New Trans:W CPU2->MEM0 [34] D:f595
+Nom trans:da2c
+Nom trans:e042
+New Trans:R CPU1->MEM1 [4f] D:deadbeef
+New Trans:W CPU2->MEM1 [e9] D:6a1a
+Nom trans:47c9
+Nom trans:33c7
+New Trans:W CPU0->MEM2 [ff] D:1f1e
+Nom trans:ab87
+Nom trans:bbd5
+New Trans:W CPU2->MEM1 [76] D:3200
+New Trans:R CPU1->MEM2 [95] D:deadbeef
+Nom trans:6a98
+New Trans:W CPU0->MEM1 [69] D:f990
+New Trans:R CPU1->MEM2 [df] D:deadbeef
+Nom trans:657f
+Nom trans:8752
+New Trans:R CPU0->MEM0 [d4] D:deadbeef
+New Trans:W CPU2->MEM0 [ac] D:8eee
+Nom trans:3325
+Nom trans:bd58
+New Trans:W CPU2->MEM0 [e1] D:ce22
+New Trans:W CPU1->MEM2 [4] D:4322
+Nom trans:7bf1
+Nom trans:c8d8
+New Trans:R CPU0->MEM0 [e7] D:deadbeef
+New Trans:R CPU1->MEM2 [73] D:deadbeef
+Nom trans:62b9
+New Trans:R CPU2->MEM1 [e9] D:deadbeef
+Nom trans:eae6
+Nom trans:da5e
+Nom trans:fc95
+New Trans:R CPU2->MEM1 [3f] D:deadbeef
+New Trans:W CPU0->MEM1 [5d] D:390d
+New Trans:W CPU1->MEM0 [e5] D:9533
+Nom trans:ffd7
+Nom trans:498c
+Nom trans:8d69
+New Trans:R CPU0->MEM2 [9e] D:deadbeef
+New Trans:R CPU2->MEM0 [73] D:deadbeef
+Nom trans:9fb8
+Nom trans:1a9b
+New Trans:W CPU1->MEM0 [bb] D:d2d2
+Nom trans:da26
+New Trans:W CPU0->MEM1 [3b] D:4652
+New Trans:R CPU1->MEM0 [85] D:deadbeef
+Nom trans:4d2c
+New Trans:W CPU2->MEM2 [3e] D:f5c0
+New Trans:W CPU0->MEM0 [c] D:cf03
+Nom trans:8442
+New Trans:W CPU1->MEM1 [82] D:1985
+Nom trans:26c2
+Nom trans:3768
+New Trans:R CPU2->MEM2 [37] D:deadbeef
+New Trans:R CPU0->MEM0 [f3] D:deadbeef
+Nom trans:5e10
+Nom trans:289a
+New Trans:R CPU1->MEM0 [72] D:deadbeef
+New Trans:R CPU2->MEM0 [0] D:deadbeef
+Nom trans:b139
+Nom trans:3648
+New Trans:R CPU1->MEM1 [f] D:deadbeef
+New Trans:W CPU0->MEM0 [24] D:babc
+Nom trans:b575
+Nom trans:b8d3
+New Trans:W CPU2->MEM1 [fe] D:903a
+New Trans:R CPU0->MEM1 [ae] D:deadbeef
+Nom trans:2e01
+New Trans:W CPU1->MEM1 [c3] D:aa4b
+Nom trans:d35d
+Nom trans:4ef8
+New Trans:W CPU2->MEM0 [3e] D:20c2
+New Trans:R CPU0->MEM1 [12] D:deadbeef
+Nom trans:f066
+New Trans:R CPU1->MEM1 [a9] D:deadbeef
+Nom trans:b5c2
+New Trans:W CPU2->MEM1 [95] D:765
+Nom trans:4987
+Nom trans:4c9d
+New Trans:W CPU1->MEM0 [6b] D:79ec
+New Trans:R CPU0->MEM2 [e] D:deadbeef
+Nom trans:c1ff
+Nom trans:f12a
+New Trans:R CPU2->MEM1 [a0] D:deadbeef
+Nom trans:eca
+New Trans:R CPU0->MEM0 [e8] D:deadbeef
+Nom trans:6c62
+New Trans:W CPU1->MEM2 [5] D:5e78
+Nom trans:872e
+New Trans:R CPU0->MEM2 [53] D:deadbeef
+New Trans:R CPU2->MEM1 [9f] D:deadbeef
+Nom trans:c4b7
+Nom trans:c8d6
+New Trans:R CPU1->MEM0 [cc] D:deadbeef
+New Trans:R CPU2->MEM1 [9b] D:deadbeef
+Nom trans:1d73
+New Trans:W CPU0->MEM0 [23] D:8d0
+Nom trans:4a58
+Nom trans:f595
+New Trans:R CPU1->MEM2 [b8] D:deadbeef
+New Trans:W CPU2->MEM0 [4a] D:2983
+Nom trans:8912
+New Trans:W CPU0->MEM2 [47] D:127f
+Nom trans:120e
+New Trans:R CPU1->MEM1 [b3] D:deadbeef
+Nom trans:6a1a
+Nom trans:1f1e
+New Trans:R CPU0->MEM1 [14] D:deadbeef
+New Trans:R CPU2->MEM0 [aa] D:deadbeef
+Nom trans:f3c8
+New Trans:R CPU1->MEM2 [18] D:deadbeef
+Nom trans:3200
+New Trans:R CPU2->MEM1 [f6] D:deadbeef
+Nom trans:f990
+Nom trans:110f
+New Trans:R CPU0->MEM2 [60] D:deadbeef
+Nom trans:8eee
+Nom trans:eebb
+New Trans:W CPU2->MEM0 [82] D:2a3f
+New Trans:R CPU1->MEM2 [f8] D:deadbeef
+Nom trans:4322
+New Trans:R CPU0->MEM1 [e7] D:deadbeef
+New Trans:W CPU1->MEM0 [72] D:ec34
+Nom trans:ce22
+New Trans:R CPU2->MEM2 [46] D:deadbeef
+Nom trans:aab0
+New Trans:W CPU0->MEM2 [33] D:c795
+Nom trans:439b
+Nom trans:ec02
+New Trans:R CPU1->MEM1 [72] D:deadbeef
+Nom trans:390d
+New Trans:W CPU2->MEM0 [20] D:d018
+New Trans:W CPU0->MEM2 [52] D:739f
+Nom trans:9533
+New Trans:W CPU1->MEM1 [a5] D:a969
+Nom trans:923b
+Nom trans:c870
+New Trans:R CPU2->MEM1 [34] D:deadbeef
+Nom trans:d2d2
+New Trans:R CPU1->MEM0 [42] D:deadbeef
+Nom trans:9320
+New Trans:R CPU0->MEM1 [a1] D:deadbeef
+New Trans:W CPU2->MEM2 [18] D:2565
+Nom trans:4652
+Nom trans:7c03
+Nom trans:f5c0
+New Trans:W CPU1->MEM0 [b6] D:e5b8
+New Trans:W CPU0->MEM0 [a9] D:5e70
+New Trans:W CPU2->MEM0 [bc] D:897
+Nom trans:cf03
+Nom trans:1985
+New Trans:W CPU0->MEM1 [47] D:2df2
+New Trans:R CPU1->MEM1 [c0] D:deadbeef
+Nom trans:962a
+Nom trans:efed
+Nom trans:a1b2
+New Trans:R CPU2->MEM1 [4c] D:deadbeef
+New Trans:W CPU1->MEM1 [7d] D:1618
+Nom trans:cc1a
+New Trans:W CPU0->MEM0 [41] D:8339
+New Trans:R CPU2->MEM1 [85] D:deadbeef
+Nom trans:babc
+Nom trans:6328
+New Trans:R CPU0->MEM2 [b6] D:deadbeef
+Nom trans:903a
+New Trans:W CPU2->MEM0 [a6] D:a7ab
+Nom trans:4aa9
+New Trans:R CPU1->MEM0 [7a] D:deadbeef
+New Trans:R CPU0->MEM0 [4] D:deadbeef
+Nom trans:aa4b
+New Trans:R CPU1->MEM0 [fb] D:deadbeef
+Nom trans:20c2
+Nom trans:9d7c
+New Trans:R CPU2->MEM1 [88] D:deadbeef
+New Trans:R CPU0->MEM0 [a9] D:deadbeef
+Nom trans:507d
+Nom trans:765
+New Trans:W CPU1->MEM0 [2e] D:9ebc
+New Trans:W CPU2->MEM2 [2e] D:f445
+Nom trans:c65
+New Trans:W CPU0->MEM1 [2d] D:a886
+Nom trans:79ec
+New Trans:R CPU1->MEM1 [db] D:deadbeef
+Nom trans:3700
+New Trans:W CPU2->MEM2 [d0] D:a2e8
+Nom trans:9777
+New Trans:W CPU0->MEM0 [45] D:5078
+Nom trans:5e78
+New Trans:R CPU1->MEM2 [81] D:deadbeef
+Nom trans:4f0c
+Nom trans:b03
+Nom trans:e31
+New Trans:W CPU2->MEM2 [ef] D:bc8d
+New Trans:R CPU1->MEM0 [19] D:deadbeef
+New Trans:R CPU0->MEM0 [e3] D:deadbeef
+Nom trans:1bb6
+Nom trans:8d0
+New Trans:R CPU2->MEM0 [f0] D:deadbeef
+New Trans:W CPU0->MEM2 [f] D:9616
+Nom trans:4145
+Nom trans:2983
+Nom trans:127f
+New Trans:W CPU1->MEM1 [3c] D:ba14
+New Trans:W CPU2->MEM2 [de] D:abfa
+Nom trans:664c
+New Trans:W CPU0->MEM1 [c] D:8f93
+New Trans:R CPU1->MEM0 [b] D:deadbeef
+Nom trans:f60d
+New Trans:R CPU2->MEM0 [1f] D:deadbeef
+Nom trans:da04
+New Trans:W CPU0->MEM2 [e6] D:b07f
+Nom trans:8d9d
+Nom trans:cb99
+Nom trans:ef0e
+New Trans:W CPU1->MEM2 [ae] D:86a4
+New Trans:W CPU0->MEM1 [96] D:a017
+Nom trans:ab1b
+Nom trans:2a3f
+New Trans:W CPU1->MEM2 [c] D:609a
+New Trans:R CPU2->MEM1 [ba] D:deadbeef
+Nom trans:98df
+New Trans:R CPU2->MEM2 [6c] D:deadbeef
+New Trans:W CPU0->MEM2 [2f] D:fd72
+Nom trans:ec34
+New Trans:R CPU1->MEM2 [68] D:deadbeef
+Nom trans:c1fd
+New Trans:R CPU2->MEM2 [28] D:deadbeef
+Nom trans:c795
+Nom trans:ade6
+New Trans:R CPU0->MEM1 [29] D:deadbeef
+Nom trans:d018
+New Trans:W CPU1->MEM0 [d2] D:a06f
+New Trans:R CPU2->MEM1 [ad] D:deadbeef
+Nom trans:739f
+Nom trans:a969
+New Trans:R CPU0->MEM2 [8f] D:deadbeef
+Nom trans:e6e0
+New Trans:R CPU1->MEM2 [a9] D:deadbeef
+Nom trans:3ba
+New Trans:R CPU2->MEM1 [96] D:deadbeef
+New Trans:R CPU0->MEM2 [e] D:deadbeef
+Nom trans:ebdc
+New Trans:R CPU1->MEM0 [5] D:deadbeef
+Nom trans:2565
+New Trans:W CPU2->MEM2 [a5] D:3cbc
+Nom trans:5e70
+New Trans:W CPU0->MEM2 [3e] D:51b3
+Nom trans:e5b8
+Nom trans:897
+Nom trans:2df2
+Nom trans:e0e0
+New Trans:R CPU0->MEM0 [5a] D:deadbeef
+New Trans:W CPU2->MEM0 [67] D:a36b
+Nom trans:7b31
+New Trans:W CPU1->MEM0 [e2] D:140e
+New Trans:W CPU2->MEM0 [62] D:ffa0
+Nom trans:8339
+New Trans:R CPU1->MEM0 [b2] D:deadbeef
+New Trans:W CPU0->MEM0 [b2] D:d831
+Nom trans:1618
+Nom trans:b903
+New Trans:R CPU1->MEM1 [50] D:deadbeef
+Nom trans:ce6b
+New Trans:R CPU2->MEM2 [2c] D:deadbeef
+New Trans:W CPU0->MEM2 [dc] D:953d
+Nom trans:d35a
+New Trans:W CPU1->MEM1 [3d] D:26b1
+Nom trans:a7ab
+New Trans:W CPU2->MEM0 [3f] D:421
+Nom trans:c997
+New Trans:W CPU0->MEM0 [4c] D:b017
+Nom trans:b755
+Nom trans:d4b3
+New Trans:R CPU2->MEM1 [e3] D:deadbeef
+Nom trans:b65f
+New Trans:W CPU1->MEM0 [64] D:4ac
+New Trans:R CPU0->MEM0 [75] D:deadbeef
+Nom trans:9ebc
+Nom trans:f445
+New Trans:W CPU1->MEM2 [82] D:6c53
+Nom trans:a886
+Nom trans:c78c
+New Trans:R CPU1->MEM2 [14] D:deadbeef
+New Trans:W CPU2->MEM0 [ca] D:d0db
+New Trans:R CPU0->MEM1 [2] D:deadbeef
+Nom trans:a2e8
+New Trans:R CPU2->MEM1 [a7] D:deadbeef
+Nom trans:5078
+New Trans:R CPU0->MEM1 [fa] D:deadbeef
+Nom trans:ba63
+New Trans:R CPU1->MEM1 [6d] D:deadbeef
+Nom trans:bc8d
+Nom trans:caff
+New Trans:W CPU2->MEM0 [bb] D:f321
+Nom trans:b182
+New Trans:W CPU1->MEM0 [5b] D:f3ec
+New Trans:R CPU0->MEM0 [8] D:deadbeef
+Nom trans:3f1d
+Nom trans:9616
+Nom trans:ba14
+New Trans:R CPU2->MEM1 [80] D:deadbeef
+Nom trans:abfa
+New Trans:R CPU2->MEM2 [62] D:deadbeef
+New Trans:R CPU0->MEM2 [5] D:deadbeef
+New Trans:R CPU1->MEM2 [de] D:deadbeef
+Nom trans:8f93
+New Trans:R CPU0->MEM0 [f1] D:deadbeef
+Nom trans:b001
+Nom trans:232e
+New Trans:W CPU2->MEM0 [14] D:5d47
+New Trans:W CPU1->MEM0 [1b] D:b912
+Nom trans:b07f
+New Trans:W CPU0->MEM0 [87] D:3ab0
+Nom trans:86a4
+New Trans:R CPU1->MEM1 [f3] D:deadbeef
+Nom trans:ed78
+New Trans:W CPU2->MEM2 [53] D:c2ea
+Nom trans:a017
+Nom trans:609a
+New Trans:R CPU0->MEM0 [91] D:deadbeef
+New Trans:R CPU1->MEM1 [11] D:deadbeef
+Nom trans:f926
+Nom trans:fd72
+New Trans:W CPU2->MEM0 [95] D:9111
+Nom trans:a07b
+Nom trans:a93
+New Trans:W CPU0->MEM0 [c3] D:4330
+New Trans:R CPU2->MEM2 [1b] D:deadbeef
+New Trans:R CPU1->MEM0 [7e] D:deadbeef
+Nom trans:9416
+New Trans:W CPU0->MEM1 [89] D:f768
+Nom trans:a06f
+Nom trans:8063
+New Trans:R CPU1->MEM1 [70] D:deadbeef
+New Trans:R CPU2->MEM0 [26] D:deadbeef
+Nom trans:ed83
+Nom trans:c1eb
+New Trans:W CPU0->MEM2 [4d] D:36a8
+New Trans:W CPU1->MEM2 [28] D:277f
+Nom trans:e284
+New Trans:R CPU2->MEM1 [22] D:deadbeef
+Nom trans:22c1
+Nom trans:5ddd
+New Trans:W CPU0->MEM1 [c2] D:538
+Nom trans:3cbc
+New Trans:W CPU1->MEM1 [4d] D:351b
+New Trans:R CPU2->MEM2 [52] D:deadbeef
+Nom trans:51b3
+Nom trans:140e
+New Trans:W CPU0->MEM2 [ad] D:b6f4
+New Trans:W CPU1->MEM0 [e2] D:b34
+Nom trans:a36b
+Nom trans:780f
+New Trans:R CPU2->MEM0 [8e] D:deadbeef
+New Trans:W CPU0->MEM1 [90] D:ecec
+Nom trans:6dbe
+Nom trans:ffa0
+New Trans:R CPU2->MEM0 [25] D:deadbeef
+New Trans:R CPU1->MEM1 [71] D:deadbeef
+Nom trans:d831
+New Trans:R CPU0->MEM1 [3c] D:deadbeef
+Nom trans:bfc3
+Nom trans:4836
+Nom trans:953d
+Nom trans:26b1
+New Trans:R CPU1->MEM0 [79] D:deadbeef
+Nom trans:421
+Nom trans:b017
+New Trans:W CPU2->MEM0 [6c] D:9cc3
+New Trans:R CPU1->MEM2 [c3] D:deadbeef
+New Trans:W CPU0->MEM1 [16] D:3296
+New Trans:R CPU2->MEM1 [96] D:deadbeef
+New Trans:W CPU0->MEM0 [f2] D:65bd
+Nom trans:4ac
+New Trans:R CPU1->MEM0 [a0] D:deadbeef
+Nom trans:d484
+Nom trans:4275
+New Trans:R CPU2->MEM0 [70] D:deadbeef
+Nom trans:6c53
+New Trans:W CPU1->MEM1 [ee] D:4e1a
+New Trans:R CPU0->MEM0 [82] D:deadbeef
+Nom trans:d0db
+Nom trans:55af
+Nom trans:eee2
+Nom trans:99d1
+New Trans:R CPU2->MEM1 [1d] D:deadbeef
+New Trans:W CPU0->MEM1 [bb] D:828c
+New Trans:R CPU1->MEM0 [d7] D:deadbeef
+Nom trans:3d67
+New Trans:R CPU2->MEM1 [fa] D:deadbeef
+New Trans:R CPU0->MEM0 [3f] D:deadbeef
+Nom trans:721a
+Nom trans:f321
+New Trans:R CPU1->MEM1 [37] D:deadbeef
+New Trans:W CPU2->MEM0 [67] D:e277
+Nom trans:3371
+Nom trans:f3ec
+New Trans:R CPU1->MEM0 [2b] D:deadbeef
+New Trans:R CPU0->MEM0 [2c] D:deadbeef
+Nom trans:add4
+Nom trans:5032
+Nom trans:a1e3
+New Trans:R CPU0->MEM0 [43] D:deadbeef
+New Trans:R CPU1->MEM1 [e8] D:deadbeef
+New Trans:R CPU2->MEM1 [8c] D:deadbeef
+Nom trans:db7e
+New Trans:W CPU2->MEM2 [c7] D:e2b9
+Nom trans:20d8
+Nom trans:b912
+New Trans:W CPU0->MEM0 [7f] D:378c
+New Trans:R CPU1->MEM0 [14] D:deadbeef
+Nom trans:5d47
+Nom trans:3ab0
+Nom trans:d7c0
+New Trans:R CPU0->MEM0 [96] D:deadbeef
+New Trans:R CPU1->MEM1 [d8] D:deadbeef
+New Trans:R CPU2->MEM1 [54] D:deadbeef
+Nom trans:c2ea
+Nom trans:4c72
+New Trans:W CPU0->MEM1 [39] D:b680
+New Trans:R CPU2->MEM0 [6e] D:deadbeef
+Nom trans:16f3
+Nom trans:9111
+New Trans:R CPU1->MEM2 [cd] D:deadbeef
+Nom trans:4330
+Nom trans:fcd9
+New Trans:R CPU0->MEM0 [c8] D:deadbeef
+New Trans:W CPU2->MEM2 [bb] D:bb64
+Nom trans:250c
+New Trans:R CPU1->MEM0 [95] D:deadbeef
+Nom trans:f768
+New Trans:R CPU2->MEM1 [26] D:deadbeef
+Nom trans:b75e
+New Trans:R CPU0->MEM2 [6b] D:deadbeef
+Nom trans:cf09
+Nom trans:36a8
+New Trans:W CPU1->MEM1 [bb] D:b762
+Nom trans:277f
+New Trans:W CPU2->MEM0 [d9] D:9732
+New Trans:R CPU1->MEM1 [37] D:deadbeef
+Nom trans:30f9
+Nom trans:538
+New Trans:R CPU2->MEM2 [5b] D:deadbeef
+New Trans:R CPU0->MEM2 [84] D:deadbeef
+New Trans:R CPU0->MEM1 [da] D:deadbeef
+Nom trans:351b
+Nom trans:f408
+New Trans:R CPU1->MEM2 [b8] D:deadbeef
+Nom trans:b6f4
+New Trans:W CPU2->MEM2 [ab] D:9fbe
+New Trans:R CPU0->MEM2 [7a] D:deadbeef
+Nom trans:b34
+New Trans:R CPU1->MEM0 [d2] D:deadbeef
+Nom trans:894c
+New Trans:R CPU2->MEM2 [f7] D:deadbeef
+Nom trans:ecec
+Nom trans:b858
+New Trans:W CPU0->MEM1 [92] D:da79
+New Trans:R CPU1->MEM0 [b] D:deadbeef
+Nom trans:bc43
+Nom trans:652f
+New Trans:R CPU0->MEM2 [3a] D:deadbeef
+New Trans:R CPU2->MEM0 [d1] D:deadbeef
+Nom trans:d5ac
+New Trans:W CPU1->MEM0 [1b] D:b23a
+Nom trans:9cc3
+New Trans:W CPU2->MEM0 [4e] D:e7a
+Nom trans:3296
+New Trans:R CPU0->MEM0 [66] D:deadbeef
+Nom trans:8168
+Nom trans:96ca
+New Trans:R CPU1->MEM2 [29] D:deadbeef
+Nom trans:65bd
+New Trans:W CPU2->MEM1 [17] D:bfc9
+New Trans:W CPU0->MEM0 [6a] D:dbe
+Nom trans:1390
+Nom trans:203c
+New Trans:R CPU1->MEM1 [d3] D:deadbeef
+Nom trans:fe32
+New Trans:W CPU2->MEM0 [bc] D:f028
+Nom trans:4e1a
+New Trans:W CPU0->MEM2 [1d] D:d194
+New Trans:R CPU1->MEM0 [cb] D:deadbeef
+Nom trans:f238
+New Trans:W CPU2->MEM1 [3d] D:dd09
+Nom trans:828c
+Nom trans:4955
+New Trans:R CPU0->MEM0 [1f] D:deadbeef
+Nom trans:1eba
+Nom trans:db08
+New Trans:W CPU2->MEM2 [bf] D:9217
+New Trans:W CPU1->MEM0 [6d] D:6df2
+Nom trans:5175
+New Trans:R CPU0->MEM0 [89] D:deadbeef
+New Trans:R CPU1->MEM2 [ef] D:deadbeef
+Nom trans:e277
+New Trans:R CPU2->MEM2 [c7] D:deadbeef
+Nom trans:2b4
+New Trans:R CPU0->MEM1 [7f] D:deadbeef
+Nom trans:8577
+New Trans:W CPU1->MEM1 [68] D:5168
+Nom trans:5a05
+New Trans:R CPU2->MEM1 [e4] D:deadbeef
+Nom trans:ddb1
+New Trans:R CPU0->MEM1 [4b] D:deadbeef
+Nom trans:b801
+Nom trans:e2b9
+New Trans:R CPU1->MEM1 [e7] D:deadbeef
+Nom trans:378c
+New Trans:W CPU2->MEM2 [9f] D:a27a
+Nom trans:ca02
+New Trans:R CPU1->MEM2 [9b] D:deadbeef
+Nom trans:31b6
+New Trans:W CPU2->MEM1 [c] D:7512
+New Trans:W CPU0->MEM1 [35] D:2438
+Nom trans:5cd2
+Nom trans:9806
+New Trans:R CPU0->MEM1 [3b] D:deadbeef
+New Trans:W CPU1->MEM1 [a1] D:6d6e
+Nom trans:cd2
+New Trans:R CPU2->MEM1 [73] D:deadbeef
+Nom trans:b680
+Nom trans:755d
+New Trans:W CPU0->MEM2 [f2] D:6311
+Nom trans:bb64
+New Trans:R CPU1->MEM2 [18] D:deadbeef
+New Trans:W CPU2->MEM0 [3b] D:eec2
+Nom trans:7a78
+Nom trans:af7a
+Nom trans:d2f8
+New Trans:R CPU1->MEM0 [3] D:deadbeef
+New Trans:W CPU0->MEM0 [10] D:9db1
+New Trans:W CPU2->MEM1 [7f] D:125c
+Nom trans:8b1e
+Nom trans:b762
+New Trans:W CPU0->MEM1 [ca] D:b369
+New Trans:W CPU1->MEM1 [92] D:8a4b
+Nom trans:9732
+Nom trans:d690
+New Trans:R CPU2->MEM1 [8b] D:deadbeef
+New Trans:R CPU0->MEM0 [2b] D:deadbeef
+Nom trans:fbe1
+New Trans:R CPU1->MEM2 [1f] D:deadbeef
+Nom trans:3bc4
+New Trans:W CPU2->MEM0 [86] D:35c2
+Nom trans:c7b4
+Nom trans:b155
+New Trans:W CPU0->MEM2 [cc] D:4995
+New Trans:W CPU1->MEM1 [8c] D:f629
+Nom trans:9fbe
+New Trans:W CPU2->MEM2 [78] D:7416
+Nom trans:ad55
+New Trans:W CPU0->MEM2 [21] D:7b70
+Nom trans:35a9
+New Trans:R CPU1->MEM2 [49] D:deadbeef
+Nom trans:7ce7
+Nom trans:da79
+Nom trans:49ad
+New Trans:R CPU0->MEM0 [9e] D:deadbeef
+New Trans:R CPU2->MEM1 [5b] D:deadbeef
+Nom trans:8e0
+Nom trans:aa01
+New Trans:R CPU0->MEM0 [db] D:deadbeef
+New Trans:R CPU1->MEM1 [1d] D:deadbeef
+New Trans:W CPU2->MEM0 [50] D:33c4
+Nom trans:b23a
+New Trans:W CPU1->MEM2 [3c] D:9cbb
+Nom trans:e7a
+New Trans:W CPU2->MEM2 [b7] D:1d59
+Nom trans:50ff
+Nom trans:da4a
+New Trans:W CPU1->MEM2 [2e] D:f8b5
+New Trans:W CPU0->MEM1 [63] D:c4a8
+Nom trans:bfc9
+New Trans:R CPU2->MEM1 [40] D:deadbeef
+Nom trans:dbe
+New Trans:W CPU0->MEM0 [87] D:7598
+Nom trans:ccc9
+New Trans:W CPU1->MEM0 [f7] D:f3d4
+Nom trans:f028
+Nom trans:d194
+New Trans:W CPU2->MEM2 [3f] D:c78e
+Nom trans:23d6
+Nom trans:dd09
+New Trans:W CPU0->MEM1 [d8] D:94b3
+New Trans:R CPU1->MEM1 [5e] D:deadbeef
+New Trans:R CPU2->MEM0 [64] D:deadbeef
+Nom trans:ca02
+New Trans:W CPU0->MEM2 [27] D:5cae
+Nom trans:6df2
+New Trans:R CPU1->MEM2 [85] D:deadbeef
+Nom trans:9217
+Nom trans:bee4
+New Trans:W CPU2->MEM1 [b5] D:431e
+New Trans:W CPU0->MEM0 [d2] D:924a
+Nom trans:36a9
+Nom trans:bc9e
+New Trans:R CPU1->MEM0 [4d] D:deadbeef
+Nom trans:5030
+New Trans:W CPU2->MEM2 [13] D:e4ec
+New Trans:W CPU0->MEM0 [15] D:2ea3
+Nom trans:5168
+Nom trans:5d16
+Nom trans:d109
+Nom trans:7807
+New Trans:R CPU0->MEM0 [a6] D:deadbeef
+New Trans:R CPU1->MEM2 [c5] D:deadbeef
+New Trans:W CPU2->MEM2 [27] D:d259
+New Trans:R CPU1->MEM2 [bd] D:deadbeef
+Nom trans:a27a
+New Trans:R CPU2->MEM0 [bb] D:deadbeef
+Nom trans:2438
+New Trans:R CPU0->MEM0 [bd] D:deadbeef
+Nom trans:a52d
+Nom trans:7512
+Nom trans:eb31
+New Trans:R CPU0->MEM0 [37] D:deadbeef
+New Trans:W CPU2->MEM2 [cc] D:2c0d
+New Trans:R CPU1->MEM1 [66] D:deadbeef
+Nom trans:6d6e
+New Trans:R CPU1->MEM2 [e7] D:deadbeef
+Nom trans:56a6
+Nom trans:6311
+Nom trans:1a69
+New Trans:W CPU1->MEM0 [d3] D:fbb7
+New Trans:R CPU0->MEM2 [2a] D:deadbeef
+New Trans:R CPU2->MEM0 [57] D:deadbeef
+Nom trans:eec2
+New Trans:R CPU2->MEM2 [af] D:deadbeef
+Nom trans:9db1
+Nom trans:94d5
+New Trans:R CPU0->MEM1 [c9] D:deadbeef
+New Trans:R CPU1->MEM0 [4a] D:deadbeef
+Nom trans:125c
+New Trans:R CPU2->MEM0 [65] D:deadbeef
+Nom trans:b369
+Nom trans:8a4b
+Nom trans:edc1
+New Trans:W CPU0->MEM0 [47] D:6b52
+New Trans:W CPU1->MEM0 [a4] D:792f
+Nom trans:e0cf
+New Trans:W CPU2->MEM1 [8f] D:2461
+Nom trans:f3ff
+New Trans:R CPU0->MEM2 [3c] D:deadbeef
+Nom trans:35c2
+New Trans:W CPU1->MEM1 [4f] D:769b
+Nom trans:4995
+New Trans:W CPU0->MEM1 [40] D:6c87
+New Trans:R CPU2->MEM2 [d9] D:deadbeef
+Nom trans:f629
+New Trans:W CPU1->MEM2 [8c] D:4ba2
+Nom trans:7416
+Nom trans:7b70
+New Trans:R CPU2->MEM1 [65] D:deadbeef
+New Trans:W CPU0->MEM1 [c9] D:6109
+Nom trans:f828
+New Trans:R CPU1->MEM1 [34] D:deadbeef
+Nom trans:1fca
+New Trans:W CPU2->MEM0 [fb] D:cc26
+Nom trans:e332
+Nom trans:62b2
+New Trans:R CPU0->MEM0 [7f] D:deadbeef
+New Trans:W CPU1->MEM1 [1d] D:3f18
+Nom trans:33c4
+Nom trans:2ead
+Nom trans:9cbb
+New Trans:W CPU2->MEM2 [2f] D:2c8d
+Nom trans:1d59
+New Trans:W CPU0->MEM1 [d7] D:a8a0
+New Trans:W CPU2->MEM1 [c6] D:c953
+New Trans:W CPU1->MEM1 [30] D:5add
+Nom trans:c4a8
+Nom trans:f8b5
+New Trans:W CPU0->MEM0 [cf] D:ff5
+New Trans:W CPU1->MEM2 [d5] D:bbd1
+Nom trans:4eaa
+Nom trans:7598
+New Trans:R CPU2->MEM1 [c8] D:deadbeef
+Nom trans:f3d4
+New Trans:R CPU1->MEM2 [72] D:deadbeef
+New Trans:R CPU0->MEM2 [70] D:deadbeef
+Nom trans:c78e
+Nom trans:94b3
+New Trans:R CPU2->MEM0 [ea] D:deadbeef
+Nom trans:3a9f
+New Trans:W CPU1->MEM1 [74] D:52e5
+New Trans:W CPU0->MEM1 [4a] D:be5b
+Nom trans:4ec7
+New Trans:W CPU2->MEM0 [b2] D:da3b
+Nom trans:5cae
+Nom trans:ff75
+New Trans:R CPU0->MEM1 [b2] D:deadbeef
+New Trans:R CPU1->MEM2 [31] D:deadbeef
+Nom trans:431e
+New Trans:R CPU2->MEM0 [bf] D:deadbeef
+Nom trans:924a
+New Trans:R CPU0->MEM0 [bc] D:deadbeef
+Nom trans:55ad
+Nom trans:e4ec
+New Trans:R CPU1->MEM2 [d7] D:deadbeef
+New Trans:R CPU2->MEM2 [6d] D:deadbeef
+Nom trans:2ea3
+New Trans:R CPU0->MEM1 [be] D:deadbeef
+Nom trans:79c
+Nom trans:d259
+New Trans:R CPU1->MEM1 [45] D:deadbeef
+Nom trans:2c1e
+New Trans:R CPU2->MEM0 [36] D:deadbeef
+New Trans:W CPU0->MEM2 [c8] D:1ad9
+Nom trans:536a
+Nom trans:9b6b
+New Trans:W CPU1->MEM1 [b0] D:4984
+New Trans:W CPU2->MEM2 [b] D:c9a7
+Nom trans:e9c3
+Nom trans:b9f9
+New Trans:W CPU0->MEM0 [1e] D:f8fd
+Nom trans:2c0d
+New Trans:W CPU1->MEM1 [ce] D:81df
+New Trans:W CPU2->MEM2 [49] D:e0a1
+Nom trans:2b46
+Nom trans:f285
+New Trans:W CPU0->MEM1 [78] D:fa0c
+New Trans:R CPU1->MEM1 [f5] D:deadbeef
+Nom trans:82df
+New Trans:W CPU2->MEM0 [21] D:e5c3
+Nom trans:5010
+Nom trans:fbb7
+New Trans:W CPU0->MEM1 [86] D:34a5
+Nom trans:1652
+New Trans:W CPU2->MEM2 [1] D:515e
+New Trans:W CPU1->MEM0 [c8] D:6621
+Nom trans:85aa
+New Trans:W CPU0->MEM0 [a2] D:a922
+Nom trans:fb2f
+New Trans:R CPU1->MEM0 [84] D:deadbeef
+Nom trans:7cbc
+Nom trans:6b52
+New Trans:R CPU0->MEM1 [9b] D:deadbeef
+Nom trans:792f
+New Trans:R CPU2->MEM2 [11] D:deadbeef
+New Trans:R CPU1->MEM0 [3e] D:deadbeef
+Nom trans:2461
+New Trans:W CPU2->MEM2 [36] D:72e5
+Nom trans:5672
+New Trans:R CPU0->MEM0 [5d] D:deadbeef
+Nom trans:769b
+Nom trans:feff
+Nom trans:6c87
+New Trans:R CPU2->MEM2 [fe] D:deadbeef
+New Trans:W CPU1->MEM2 [cc] D:d7c2
+Nom trans:4ba2
+New Trans:R CPU0->MEM2 [32] D:deadbeef
+Nom trans:b036
+New Trans:W CPU1->MEM2 [31] D:22fb
+Nom trans:6109
+New Trans:R CPU2->MEM1 [d5] D:deadbeef
+New Trans:R CPU0->MEM0 [ed] D:deadbeef
+Nom trans:87c6
+Nom trans:cc26
+New Trans:W CPU1->MEM2 [7f] D:3a51
+New Trans:W CPU2->MEM1 [57] D:3e30
+Nom trans:5d3b
+Nom trans:3f18
+Nom trans:2c8d
+New Trans:W CPU1->MEM0 [71] D:c897
+Nom trans:a8a0
+New Trans:W CPU0->MEM0 [73] D:3004
+New Trans:W CPU2->MEM2 [35] D:d41f
+Nom trans:5add
+New Trans:W CPU0->MEM2 [2d] D:cf24
+Nom trans:c953
+New Trans:W CPU2->MEM2 [f4] D:7c3d
+New Trans:W CPU1->MEM0 [91] D:b7c2
+Nom trans:ff5
+New Trans:W CPU0->MEM1 [60] D:a3e
+Nom trans:bbd1
+Nom trans:399f
+New Trans:W CPU2->MEM2 [ae] D:d6fc
+New Trans:R CPU1->MEM0 [55] D:deadbeef
+Nom trans:a2c7
+Nom trans:5706
+New Trans:R CPU1->MEM2 [55] D:deadbeef
+New Trans:R CPU0->MEM2 [ee] D:deadbeef
+Nom trans:8291
+Nom trans:be5b
+New Trans:R CPU2->MEM1 [bf] D:deadbeef
+Nom trans:52e5
+New Trans:W CPU0->MEM1 [3b] D:1304
+New Trans:W CPU1->MEM1 [c] D:e38c
+Nom trans:da3b
+Nom trans:ae6d
+New Trans:W CPU0->MEM0 [73] D:7d44
+New Trans:R CPU2->MEM0 [ae] D:deadbeef
+Nom trans:a07e
+Nom trans:81bf
+New Trans:W CPU1->MEM1 [2f] D:6fb1
+New Trans:R CPU2->MEM0 [6c] D:deadbeef
+Nom trans:51ee
+New Trans:W CPU0->MEM1 [dd] D:e3bf
+Nom trans:37c7
+Nom trans:bbbb
+New Trans:W CPU1->MEM0 [5] D:9474
+New Trans:W CPU2->MEM0 [ed] D:33f0
+Nom trans:ff6a
+New Trans:W CPU0->MEM2 [6d] D:6d72
+Nom trans:46d5
+Nom trans:6d68
+Nom trans:1ad9
+New Trans:R CPU1->MEM1 [0] D:deadbeef
+New Trans:R CPU2->MEM0 [f2] D:deadbeef
+New Trans:W CPU0->MEM0 [85] D:6636
+Nom trans:4984
+Nom trans:c9a7
+New Trans:W CPU2->MEM0 [30] D:ef2e
+Nom trans:f8fd
+New Trans:R CPU1->MEM2 [6d] D:deadbeef
+New Trans:W CPU0->MEM0 [66] D:c6de
+Nom trans:81df
+Nom trans:e0a1
+New Trans:W CPU1->MEM1 [fe] D:fa0c
+New Trans:R CPU2->MEM0 [d] D:deadbeef
+Nom trans:fa0c
+New Trans:W CPU0->MEM2 [4b] D:a82e
+Nom trans:468a
+New Trans:R CPU1->MEM0 [76] D:deadbeef
+Nom trans:e5c3
+Nom trans:34a5
+New Trans:W CPU0->MEM2 [c3] D:2093
+New Trans:R CPU2->MEM0 [b3] D:deadbeef
+Nom trans:6621
+New Trans:R CPU1->MEM0 [e4] D:deadbeef
+Nom trans:515e
+New Trans:R CPU2->MEM2 [62] D:deadbeef
+Nom trans:a922
+Nom trans:d88b
+New Trans:R CPU0->MEM2 [41] D:deadbeef
+New Trans:W CPU1->MEM2 [7d] D:2913
+Nom trans:8ffb
+New Trans:R CPU2->MEM2 [fe] D:deadbeef
+Nom trans:6a9b
+Nom trans:5e02
+Nom trans:72e5
+New Trans:R CPU1->MEM0 [3b] D:deadbeef
+New Trans:W CPU0->MEM0 [4a] D:c685
+New Trans:R CPU2->MEM0 [95] D:deadbeef
+Nom trans:3e14
+Nom trans:d7c2
+Nom trans:52ef
+New Trans:R CPU1->MEM1 [53] D:deadbeef
+New Trans:R CPU0->MEM2 [fd] D:deadbeef
+Nom trans:9c09
+New Trans:W CPU2->MEM1 [12] D:4df5
+New Trans:W CPU0->MEM1 [a3] D:d52e
+Nom trans:22fb
+Nom trans:b2e7
+New Trans:W CPU1->MEM0 [79] D:12c9
+New Trans:W CPU2->MEM2 [b5] D:c32a
+Nom trans:c023
+Nom trans:3a51
+New Trans:R CPU0->MEM0 [c8] D:deadbeef
+New Trans:R CPU1->MEM0 [5d] D:deadbeef
+Nom trans:3e30
+New Trans:W CPU2->MEM1 [83] D:92a4
+Nom trans:3004
+New Trans:W CPU0->MEM2 [cd] D:be0f
+Nom trans:c897
+New Trans:R CPU1->MEM1 [56] D:deadbeef
+Nom trans:d41f
+Nom trans:cf24
+New Trans:W CPU0->MEM2 [d8] D:70b9
+New Trans:R CPU2->MEM1 [bd] D:deadbeef
+Nom trans:b7c2
+New Trans:R CPU1->MEM2 [45] D:deadbeef
+Nom trans:7c3d
+New Trans:W CPU2->MEM0 [3c] D:4140
+Nom trans:a3e
+Nom trans:f50d
+New Trans:W CPU0->MEM0 [dd] D:7b20
+Nom trans:d6fc
+Nom trans:e597
+New Trans:R CPU0->MEM2 [2] D:deadbeef
+New Trans:R CPU1->MEM1 [34] D:deadbeef
+Nom trans:f43a
+New Trans:R CPU2->MEM0 [d7] D:deadbeef
+Nom trans:900a
+New Trans:W CPU1->MEM0 [a8] D:b805
+New Trans:R CPU2->MEM0 [98] D:deadbeef
+Nom trans:1304
+New Trans:W CPU0->MEM0 [1a] D:2416
+Nom trans:e38c
+Nom trans:2e7d
+New Trans:R CPU1->MEM0 [6d] D:deadbeef
+New Trans:R CPU2->MEM1 [5] D:deadbeef
+Nom trans:7d44
+New Trans:W CPU0->MEM0 [60] D:ee34
+Nom trans:6fb1
+New Trans:R CPU1->MEM1 [37] D:deadbeef
+Nom trans:ebdc
+New Trans:W CPU2->MEM2 [a8] D:25a6
+Nom trans:e3bf
+Nom trans:9474
+New Trans:W CPU0->MEM2 [9e] D:fb70
+New Trans:W CPU1->MEM1 [6f] D:4ef0
+Nom trans:33f0
+New Trans:W CPU2->MEM1 [d9] D:9f4a
+Nom trans:6d72
+Nom trans:ad33
+Nom trans:49d4
+New Trans:W CPU1->MEM2 [ce] D:2363
+New Trans:W CPU2->MEM2 [9] D:971e
+New Trans:R CPU0->MEM1 [8] D:deadbeef
+Nom trans:6636
+Nom trans:36c3
+Nom trans:ef2e
+New Trans:W CPU0->MEM2 [f3] D:a142
+New Trans:W CPU1->MEM1 [8c] D:8818
+New Trans:R CPU2->MEM2 [1d] D:deadbeef
+Nom trans:c6de
+Nom trans:fa0c
+New Trans:W CPU0->MEM2 [ad] D:c260
+New Trans:R CPU1->MEM1 [24] D:deadbeef
+Nom trans:2487
+New Trans:W CPU2->MEM0 [a] D:1cba
+Nom trans:a82e
+New Trans:W CPU0->MEM2 [a5] D:30be
+Nom trans:4730
+Nom trans:a65a
+New Trans:W CPU2->MEM2 [21] D:127a
+New Trans:W CPU1->MEM1 [b1] D:af3f
+Nom trans:2093
+Nom trans:273
+New Trans:R CPU0->MEM0 [c4] D:deadbeef
+Nom trans:17ca
+New Trans:W CPU1->MEM1 [12] D:bce
+New Trans:R CPU2->MEM1 [f1] D:deadbeef
+Nom trans:2598
+Nom trans:2913
+New Trans:W CPU0->MEM1 [bb] D:ef0a
+Nom trans:1b59
+Nom trans:c685
+New Trans:W CPU1->MEM0 [44] D:45d0
+New Trans:W CPU2->MEM1 [94] D:4bba
+New Trans:R CPU0->MEM0 [12] D:deadbeef
+Nom trans:8080
+New Trans:W CPU1->MEM0 [a8] D:4a91
+Nom trans:cfe
+Nom trans:4791
+New Trans:W CPU2->MEM0 [19] D:b10c
+New Trans:W CPU0->MEM2 [fe] D:c27c
+Nom trans:d8a4
+New Trans:W CPU1->MEM2 [ff] D:d306
+Nom trans:4df5
+Nom trans:d52e
+New Trans:R CPU2->MEM2 [97] D:deadbeef
+New Trans:R CPU0->MEM1 [33] D:deadbeef
+Nom trans:12c9
+Nom trans:c32a
+New Trans:W CPU2->MEM1 [b2] D:4e5e
+New Trans:R CPU1->MEM0 [ac] D:deadbeef
+Nom trans:d455
+New Trans:W CPU0->MEM2 [58] D:fbc5
+Nom trans:53de
+New Trans:W CPU1->MEM1 [af] D:79e7
+Nom trans:92a4
+New Trans:R CPU2->MEM0 [7d] D:deadbeef
+Nom trans:be0f
+Nom trans:498d
+New Trans:W CPU0->MEM1 [3f] D:30c
+New Trans:W CPU1->MEM2 [81] D:384a
+Nom trans:9c4b
+Nom trans:70b9
+New Trans:R CPU2->MEM0 [c5] D:deadbeef
+New Trans:W CPU0->MEM0 [5c] D:611c
+Nom trans:6e21
+Nom trans:4140
+New Trans:W CPU2->MEM0 [f6] D:40ff
+New Trans:R CPU1->MEM2 [7f] D:deadbeef
+Nom trans:7b20
+New Trans:W CPU0->MEM2 [2f] D:4555
+Nom trans:170f
+New Trans:W CPU1->MEM2 [6b] D:31b2
+Nom trans:8ef4
+Nom trans:3e9
+New Trans:W CPU2->MEM2 [4d] D:4f54
+Nom trans:b805
+New Trans:R CPU0->MEM2 [90] D:deadbeef
+Nom trans:d46b
+Nom trans:2416
+New Trans:W CPU1->MEM0 [af] D:c82b
+New Trans:R CPU0->MEM2 [80] D:deadbeef
+New Trans:W CPU2->MEM0 [6f] D:c9b4
+Nom trans:d332
+New Trans:W CPU1->MEM2 [63] D:8334
+Nom trans:e24a
+Nom trans:ee34
+New Trans:R CPU2->MEM1 [81] D:deadbeef
+New Trans:W CPU0->MEM2 [a4] D:d30d
+Nom trans:8fd2
+New Trans:R CPU1->MEM1 [27] D:deadbeef
+Nom trans:25a6
+New Trans:W CPU2->MEM2 [ca] D:d410
+Nom trans:fb70
+New Trans:R CPU0->MEM0 [fc] D:deadbeef
+Nom trans:4ef0
+New Trans:W CPU1->MEM1 [17] D:75b5
+Nom trans:9f4a
+New Trans:W CPU2->MEM0 [bf] D:b04a
+Nom trans:98cd
+New Trans:R CPU0->MEM0 [4] D:deadbeef
+Nom trans:2363
+New Trans:R CPU1->MEM2 [1] D:deadbeef
+Nom trans:971e
+Nom trans:a142
+New Trans:W CPU2->MEM0 [7b] D:579c
+Nom trans:8818
+Nom trans:86fd
+New Trans:W CPU1->MEM1 [67] D:b44d
+New Trans:R CPU0->MEM0 [97] D:deadbeef
+Nom trans:c260
+Nom trans:8c0a
+Nom trans:1cba
+New Trans:W CPU1->MEM1 [5e] D:9cd2
+Nom trans:30be
+New Trans:R CPU2->MEM1 [ec] D:deadbeef
+New Trans:W CPU0->MEM2 [1a] D:607
+Nom trans:af3f
+Nom trans:127a
+Nom trans:5ba7
+New Trans:R CPU0->MEM2 [0] D:deadbeef
+Nom trans:bce
+New Trans:W CPU1->MEM0 [74] D:1d63
+New Trans:R CPU2->MEM0 [c3] D:deadbeef
+New Trans:W CPU2->MEM0 [e9] D:49c3
+Nom trans:a978
+Nom trans:ef0a
+New Trans:R CPU2->MEM0 [4c] D:deadbeef
+New Trans:R CPU1->MEM2 [f4] D:deadbeef
+New Trans:W CPU0->MEM2 [40] D:442f
+Nom trans:45d0
+New Trans:W CPU0->MEM2 [cb] D:428d
+New Trans:W CPU1->MEM0 [50] D:5827
+Nom trans:4bba
+New Trans:R CPU2->MEM0 [eb] D:deadbeef
+Nom trans:e7d1
+New Trans:R CPU0->MEM1 [7c] D:deadbeef
+Nom trans:4a91
+New Trans:R CPU1->MEM0 [5d] D:deadbeef
+Nom trans:b10c
+New Trans:R CPU2->MEM0 [f5] D:deadbeef
+Nom trans:c27c
+New Trans:W CPU0->MEM0 [1c] D:1840
+Nom trans:d306
+New Trans:W CPU1->MEM0 [82] D:7052
+Nom trans:42f7
+New Trans:R CPU2->MEM0 [1f] D:deadbeef
+Nom trans:65a1
+Nom trans:6196
+New Trans:R CPU0->MEM0 [29] D:deadbeef
+New Trans:W CPU1->MEM0 [a4] D:43aa
+Nom trans:4e5e
+New Trans:W CPU2->MEM1 [2f] D:9387
+Nom trans:fbc5
+New Trans:R CPU0->MEM0 [94] D:deadbeef
+Nom trans:79e7
+Nom trans:ff12
+Nom trans:30c
+New Trans:W CPU1->MEM1 [ce] D:9e45
+New Trans:R CPU0->MEM1 [6e] D:deadbeef
+Nom trans:384a
+New Trans:W CPU2->MEM1 [38] D:46ce
+Nom trans:15d5
+Nom trans:611c
+New Trans:R CPU2->MEM2 [ec] D:deadbeef
+Nom trans:64a3
+New Trans:W CPU1->MEM0 [40] D:8f1d
+New Trans:W CPU0->MEM0 [12] D:3b34
+Nom trans:40ff
+New Trans:W CPU1->MEM2 [44] D:f9e7
+New Trans:W CPU2->MEM2 [a] D:9a5
+Nom trans:4555
+Nom trans:31b2
+New Trans:W CPU1->MEM1 [77] D:e9d2
+New Trans:R CPU0->MEM2 [f5] D:deadbeef
+Nom trans:4f54
+New Trans:W CPU2->MEM2 [7a] D:ee58
+Nom trans:b22e
+Nom trans:c82b
+Nom trans:c9b4
+New Trans:R CPU1->MEM1 [ec] D:deadbeef
+New Trans:W CPU0->MEM1 [51] D:df99
+Nom trans:4a2e
+New Trans:W CPU2->MEM0 [cf] D:eabc
+Nom trans:8334
+New Trans:W CPU0->MEM0 [40] D:8704
+New Trans:W CPU1->MEM2 [5] D:2f1f
+Nom trans:c7f0
+Nom trans:d30d
+New Trans:W CPU2->MEM2 [19] D:d6c8
+New Trans:R CPU0->MEM0 [6d] D:deadbeef
+Nom trans:8572
+Nom trans:d410
+New Trans:W CPU1->MEM1 [31] D:965c
+New Trans:W CPU2->MEM0 [ce] D:1c0c
+Nom trans:67a5
+Nom trans:75b5
+Nom trans:b04a
+New Trans:R CPU0->MEM0 [bc] D:deadbeef
+New Trans:R CPU1->MEM2 [41] D:deadbeef
+New Trans:W CPU2->MEM2 [64] D:424f
+Nom trans:7c6d
+Nom trans:5de
+Nom trans:579c
+New Trans:W CPU0->MEM1 [14] D:c268
+Nom trans:3099
+New Trans:R CPU2->MEM2 [f2] D:deadbeef
+New Trans:W CPU1->MEM1 [9b] D:2b87
+New Trans:R CPU0->MEM0 [af] D:deadbeef
+Nom trans:b44d
+New Trans:R CPU1->MEM2 [fb] D:deadbeef
+Nom trans:30bb
+New Trans:R CPU2->MEM0 [a3] D:deadbeef
+Nom trans:607
+New Trans:W CPU0->MEM2 [86] D:eb77
+Nom trans:9cd2
+Nom trans:601c
+New Trans:R CPU1->MEM2 [a6] D:deadbeef
+Nom trans:8ba0
+New Trans:R CPU0->MEM1 [92] D:deadbeef
+New Trans:W CPU2->MEM2 [40] D:e854
+Nom trans:1d63
+Nom trans:49c3
+Nom trans:442f
+Nom trans:e140
+New Trans:R CPU0->MEM0 [49] D:deadbeef
+Nom trans:6e37
+New Trans:R CPU2->MEM1 [f1] D:deadbeef
+New Trans:W CPU1->MEM1 [b0] D:398c
+New Trans:W CPU2->MEM1 [39] D:c8eb
+New Trans:W CPU1->MEM2 [15] D:27
+Nom trans:428d
+New Trans:W CPU0->MEM1 [6d] D:b8ab
+Nom trans:5827
+Nom trans:2394
+New Trans:W CPU2->MEM0 [4c] D:313f
+New Trans:W CPU1->MEM0 [25] D:4ddd
+Nom trans:1516
+New Trans:W CPU0->MEM2 [d] D:40e6
+Nom trans:bb22
+New Trans:W CPU1->MEM2 [d8] D:62e6
+Nom trans:d362
+Nom trans:1840
+New Trans:R CPU2->MEM1 [8e] D:deadbeef
+Nom trans:7052
+New Trans:R CPU0->MEM0 [44] D:deadbeef
+Nom trans:1fe
+New Trans:R CPU1->MEM0 [6a] D:deadbeef
+New Trans:R CPU2->MEM1 [5] D:deadbeef
+Nom trans:a128
+Nom trans:43aa
+New Trans:W CPU0->MEM0 [94] D:d4aa
+Nom trans:9387
+New Trans:R CPU1->MEM0 [43] D:deadbeef
+New Trans:R CPU2->MEM2 [2d] D:deadbeef
+Nom trans:68e5
+Nom trans:9e45
+New Trans:W CPU0->MEM1 [e4] D:5478
+Nom trans:46ce
+New Trans:W CPU1->MEM1 [51] D:9db2
+New Trans:W CPU2->MEM2 [60] D:8454
+Nom trans:d7ac
+New Trans:W CPU0->MEM2 [a9] D:5f01
+Nom trans:8f1d
+Nom trans:2523
+New Trans:W CPU2->MEM1 [e1] D:443f
+New Trans:W CPU1->MEM1 [e] D:ba8f
+Nom trans:3b34
+New Trans:W CPU0->MEM1 [e4] D:842
+Nom trans:f9e7
+Nom trans:9a5
+New Trans:W CPU1->MEM0 [37] D:225f
+New Trans:R CPU2->MEM2 [ce] D:deadbeef
+Nom trans:1f5d
+Nom trans:e9d2
+New Trans:R CPU1->MEM1 [73] D:deadbeef
+New Trans:R CPU0->MEM2 [e2] D:deadbeef
+Nom trans:ee58
+Nom trans:df99
+Nom trans:bfab
+New Trans:R CPU0->MEM2 [bd] D:deadbeef
+Nom trans:eabc
+New Trans:R CPU1->MEM1 [b6] D:deadbeef
+New Trans:W CPU2->MEM0 [ac] D:4c51
+New Trans:W CPU2->MEM0 [62] D:fb65
+Nom trans:8704
+Nom trans:2f1f
+New Trans:R CPU1->MEM1 [2d] D:deadbeef
+New Trans:W CPU0->MEM2 [d] D:719c
+Nom trans:d6c8
+New Trans:W CPU2->MEM0 [9e] D:6db9
+Nom trans:f353
+New Trans:W CPU0->MEM1 [14] D:6b5c
+Nom trans:965c
+New Trans:R CPU1->MEM1 [94] D:deadbeef
+Nom trans:1c0c
+Nom trans:7228
+New Trans:W CPU2->MEM0 [ad] D:76d0
+Nom trans:c0af
+New Trans:R CPU0->MEM2 [38] D:deadbeef
+New Trans:W CPU1->MEM1 [12] D:2425
+Nom trans:424f
+New Trans:R CPU2->MEM0 [1b] D:deadbeef
+Nom trans:c268
+New Trans:R CPU0->MEM1 [68] D:deadbeef
+Nom trans:2b87
+Nom trans:8185
+New Trans:W CPU1->MEM2 [1e] D:622d
+Nom trans:b3e9
+Nom trans:8fc
+New Trans:W CPU0->MEM0 [ab] D:488c
+New Trans:W CPU1->MEM2 [9f] D:6022
+Nom trans:d897
+Nom trans:eb77
+New Trans:W CPU0->MEM0 [eb] D:e9d9
+Nom trans:511b
+Nom trans:e854
+Nom trans:74e8
+New Trans:W CPU1->MEM0 [a2] D:90ba
+New Trans:W CPU0->MEM1 [e7] D:6400
+Nom trans:398c
+Nom trans:2de6
+New Trans:W CPU1->MEM1 [1e] D:5ecd
+Nom trans:1c6c
+Nom trans:27
+New Trans:R CPU0->MEM1 [b3] D:deadbeef
+Nom trans:c8eb
+New Trans:R CPU1->MEM1 [b1] D:deadbeef
+Nom trans:b8ab
+Nom trans:4ddd
+Nom trans:313f
+New Trans:R CPU1->MEM2 [dd] D:deadbeef
+New Trans:W CPU0->MEM0 [a9] D:6a8d
+Nom trans:40e6
+Nom trans:62e6
+Nom trans:ea03
+New Trans:W CPU1->MEM0 [24] D:5f24
+New Trans:W CPU0->MEM0 [69] D:d997
+Nom trans:9cb9
+Nom trans:3bc9
+New Trans:W CPU0->MEM1 [69] D:4154
+New Trans:W CPU1->MEM2 [d6] D:3297
+Nom trans:7f3
+Nom trans:d4aa
+New Trans:R CPU0->MEM2 [ff] D:deadbeef
+Nom trans:f005
+Nom trans:b2ee
+New Trans:R CPU1->MEM0 [2e] D:deadbeef
+Nom trans:5478
+Nom trans:9db2
+New Trans:W CPU0->MEM1 [b6] D:70cd
+New Trans:W CPU1->MEM0 [36] D:2f9
+Nom trans:8454
+Nom trans:5f01
+New Trans:R CPU0->MEM2 [e9] D:deadbeef
+Nom trans:ba8f
+New Trans:R CPU1->MEM0 [c1] D:deadbeef
+Nom trans:443f
+Nom trans:842
+Nom trans:225f
+New Trans:R CPU1->MEM0 [d1] D:deadbeef
+New Trans:R CPU0->MEM0 [5b] D:deadbeef
+Nom trans:94f1
+Nom trans:b51e
+Nom trans:7337
+New Trans:W CPU0->MEM0 [a2] D:c9fc
+Nom trans:4c51
+New Trans:W CPU1->MEM2 [f4] D:d392
+Nom trans:74c2
+Nom trans:7fdd
+New Trans:W CPU0->MEM0 [53] D:fc90
+Nom trans:fb65
+Nom trans:719c
+New Trans:W CPU0->MEM0 [60] D:78a4
+New Trans:R CPU1->MEM1 [37] D:deadbeef
+Nom trans:4082
+Nom trans:6db9
+New Trans:R CPU1->MEM2 [35] D:deadbeef
+Nom trans:6b5c
+New Trans:R CPU0->MEM2 [ac] D:deadbeef
+Nom trans:65e2
+Nom trans:76d0
+New Trans:W CPU1->MEM0 [55] D:637b
+Nom trans:41fb
+Nom trans:2425
+New Trans:R CPU0->MEM2 [26] D:deadbeef
+New Trans:W CPU1->MEM1 [4a] D:d4ca
+Nom trans:beee
+Nom trans:1e8
+Nom trans:622d
+New Trans:W CPU0->MEM1 [d3] D:7172
+New Trans:R CPU1->MEM2 [1c] D:deadbeef
